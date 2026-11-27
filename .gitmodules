@@ -1,3 +1,12 @@
 [submodule "deepCRE_reimplemented"]
 	path = deepCRE_reimplemented
 	url = https://github.com/NAMlab/deepCRE_reimplemented.git
+[submodule "code/06_benchmarking/workflows/plantcad"]
+	path = code/06_benchmarking/workflows/plantcad
+	url = https://github.com/plantcad/plantcad.git
+[submodule "code/06_benchmarking/workflows/deepcre"]
+	path = code/06_benchmarking/workflows/deepcre
+	url = https://github.com/NAMlab/deepCRE2.0.git
+[submodule "code/06_benchmarking/workflows/phytoexpr"]
+	path = code/06_benchmarking/workflows/phytoexpr
+	url = https://github.com/NAMlab/PhytoExpr-inofficial.git
