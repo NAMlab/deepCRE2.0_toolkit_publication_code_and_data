@@ -1,4 +1,4 @@
-# trained models: release assets, fetched by models/fetch_models.sh
+# model release tarballs (local only; the .h5 files are in models/<group>/)
 models/*.tar
 models/deepCRE2.0_models_release_*/
 # inputs outside the repository (EXTERNAL_INPUTS.md) and genomes

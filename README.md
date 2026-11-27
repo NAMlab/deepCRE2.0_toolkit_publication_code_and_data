@@ -20,7 +20,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 | `code/05_supplementary_figures/` | TensorFlow 2.10 inference/DeepSHAP scripts and pre-computed tables reproducing Supplementary Figures 5 (promoter swaps + ZmUBI1 + conserved-block mutations) and 6 (RAP2.12 haplotype/permutation analyses across 2024 and 2026 models). | [`code/05_supplementary_figures/README.md`](code/05_supplementary_figures/README.md) |
 | `code/06_annotation_frame/` | Scripts and summary TSVs for Supplementary Note 4 (quantifying 5' TSS frame differences and prediction accuracy between Helixer training windows and TAIR10/RefSeq curated annotations across species). | [`code/06_annotation_frame/README.md`](code/06_annotation_frame/README.md) |
 | `results/` | Final evaluation tables (`final/`, `msr/`, `ssc_control/`, `tissue_cross/`) and Table 2 expression-threshold comparison (`label_thresholds_20261126/`). | [`results/README.md`](results/README.md) |
-| `models/` | `fetch_models.sh`, SHA-256 checksums (`SHA256SUMS`), `model_id_mapping.tsv` (501 2026 models), and `peleke2024_models.tsv` (45 models from Peleke et al., 2024). | [`models/README.md`](models/README.md) |
+| `models/` | Trained `.h5` models in `ssr/`, `ssc/`, `msr/`, `peleke2024/`; `model_id_mapping.tsv` (501 2026 models), and `peleke2024_models.tsv` (45 models from Peleke et al., 2024). | [`models/README.md`](models/README.md) |
 | `tutorial/` | Web-tool tutorial inputs (`File_1`–`File_3`, corresponding to Supplementary files 1–3) and tutorial result CSVs (`Tutorial_table{1,2,3}_*.csv`). | [`tutorial/README.md`](tutorial/README.md) |
 | `deepCRE_reimplemented/` | Git submodule pointing to https://github.com/NAMlab/deepCRE_reimplemented (commit `19f6db7`), containing the unmodified core CNN training and prediction code (`train_models.py`, `deepcre_crosspredict.py`). | — |
 
@@ -40,7 +40,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 |---|---|---|
 | Expression labeling & Table 2 (2024 vs 2026 low-class definition) | `code/01_data_preparation/make_labels_dPHYlogic_meanTPM.0.py`, `make_label_reports_dPHYlogic_meanTPM.0.py`, `label_threshold_summary.{0,1}.py` | `data/<species>/*_tpm_matrix.csv.gz` → `data/<species>/*_labeled_dPHYlogic.csv.gz`, `data/label_summary.tsv`, `results/label_thresholds_20261126/` |
 | Paralog-filtered validation sets (Methods) | `code/01_data_preparation/prepare_non_homologous_validation_sets_dPHY.8.py` + `validation_v8/species_config_v8.json` | Helixer proteomes (`data/<species>/`) + `EXTERNAL/diamond/` → `data/validation_set_dCRE2026.v8.p50c50e10*.pickle` |
-| Model training (SSR, MSR, SSC, TAIR10 exception) | `code/02_training/train_models_seed_restart.{1,2}.py`, `s2v8_select_models.1.py`, `assign_model_ids.0.py`, job scripts & configs | `data/` + RefSeq `.fna` → `models/` (GitHub release) + `code/02_training/final_models.tsv` + `models/model_id_mapping.tsv` |
+| Model training (SSR, MSR, SSC, TAIR10 exception) | `code/02_training/train_models_seed_restart.{1,2}.py`, `s2v8_select_models.1.py`, `assign_model_ids.0.py`, job scripts & configs | `data/` + RefSeq `.fna` → `models/{ssr,ssc,msr}/` + `code/02_training/final_models.tsv` + `models/model_id_mapping.tsv` |
 | Held-out, cross-species, MSR, SSC & cross-tissue evaluation; Supplementary Table 1; Supplementary Data 1 | `code/03_evaluation/` (`s2v8_validation_metrics.2.py`, `crossspecies_matrices.2.py`, `msr_eval_dPm.2.py`, `msr_matrices.0.py`, `ssc_control_table.0.py`, `tissue_*.py`, `supptable1_fold_counts.0.py`, `build_supplementary_data1.1.py`) | `EXTERNAL/predictions/`, `data/` → `results/evaluation/` & Supplementary Data 1 Excel workbook |
 | Figure 1 (web tool workflow) | `code/04_figures/build_updated_fig1.py` | `EXTERNAL/figure_inputs/` → `EXTERNAL/figure_output/figures/` |
 | Figure 2 (leaf), Supplementary Figure 1 (root), Supplementary Figure 2 (cross-tissue), Source Data | `code/04_figures/make_fig2_comprehensive.{0,2}.py`, `make_suppfig1_root.2.py`, `make_suppfig2_tissue.7.py`, `make_pub_figures_split.7.py`, `build_source_data_fig2.5.py` | `results/evaluation/` → `EXTERNAL/figure_output/` (or `$FIG_OUT_DIR`) + Source Data `.xlsx` |
@@ -65,11 +65,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
    gunzip -k data/*/*.gz
    bash data/download_genomes.sh
    ```
-3. **Fetch trained HDF5 models from the GitHub release (optional groups: `SSR`, `SSC`, `MSR`, `P2024`):**
-   ```bash
-   bash models/fetch_models.sh            # SSR + SSC + MSR (2026 models, ~2.4 GB)
-   bash models/fetch_models.sh P2024      # add Peleke et al. 2024 models (~0.2 GB)
-   ```
+3. **Trained HDF5 models** are in `models/ssr/`, `models/ssc/`, `models/msr/` and `models/peleke2024/` (see `models/README.md`).
 4. **Install the analysis Python environment (Python 3.11) to re-run evaluation, figure, and workbook scripts:**
    ```bash
    pip install -r requirements_analysis.txt

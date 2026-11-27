@@ -4,18 +4,18 @@
     "annotation": "data/chenopodium_quinoa/hlx-Chenopodium_quinoa-GCF_001683475.1-63459.gff.agat.gtf",
     "targets": "data/chenopodium_quinoa/chenopodium_quinoa_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
     "prediction_models": [
-      "models/Atha_S1X0.75dPm_v8val_seed2026_NC_003074.8_ssr_train_models_261015_161943.h5",
-      "models/Bole_S1X0.75dPm_v8val_seed2026_NC_027750.1_ssr_train_models_261015_162258.h5",
-      "models/Bvul_S1X0.75dPm_v8val_seed2026_NC_064019.1_ssr_train_models_261015_161349.h5",
-      "models/Cqui_S1X0.75dPm_v8val_seed2026_NW_018745684.1_ssr_train_models_261015_163158.h5",
-      "models/Csat_S1X0.75dPm_v8val_seed2026_NC_025704.1_ssr_train_models_261015_163129.h5",
-      "models/Cucu_S1X0.75dPm_v8val_seed2026_NC_026659.2_ssr_train_models_261015_164028.h5",
-      "models/Dcar_S1X0.75dPm_v8val_seed2026_NC_030386.1_ssr_train_models_261015_164158.h5",
-      "models/Gmax_S1X0.75dPm_v8val_seed2026_NC_038246.2_ssr_train_models_261015_164843.h5",
-      "models/Osat_S1X0.75dPm_v8val_seed2026_NC_029265.1_ssr_train_models_261015_165159.h5",
-      "models/Sbic_S1X0.75dPm_v8val_seed2026_NC_012879.2_ssr_train_models_261015_170313.h5",
-      "models/Slyc_S1X0.75dPm_v8val_seed2026_NC_015447.3_ssr_train_models_261015_165813.h5",
-      "models/Zmay_S1X0.75dPm_v8val_seed2026_NC_050103.1_ssr_train_models_261015_170528.h5"
+      "models/ssr/Atha_S1X0.75dPm_v8_NC_003074.8_ssr_train_models_261015_161943.h5",
+      "models/ssr/Bole_S1X0.75dPm_v8_NC_027750.1_ssr_train_models_261015_162258.h5",
+      "models/ssr/Bvul_S1X0.75dPm_v8_NC_064019.1_ssr_train_models_261015_161349.h5",
+      "models/ssr/Cqui_S1X0.75dPm_v8_NW_018745684.1_ssr_train_models_261015_163158.h5",
+      "models/ssr/Csat_S1X0.75dPm_v8_NC_025704.1_ssr_train_models_261015_163129.h5",
+      "models/ssr/Cucu_S1X0.75dPm_v8_NC_026659.2_ssr_train_models_261015_164028.h5",
+      "models/ssr/Dcar_S1X0.75dPm_v8_NC_030386.1_ssr_train_models_261015_164158.h5",
+      "models/ssr/Gmax_S1X0.75dPm_v8_NC_038246.2_ssr_train_models_261015_164843.h5",
+      "models/ssr/Osat_S1X0.75dPm_v8_NC_029265.1_ssr_train_models_261015_165159.h5",
+      "models/ssr/Sbic_S1X0.75dPm_v8_NC_012879.2_ssr_train_models_261015_170313.h5",
+      "models/ssr/Slyc_S1X0.75dPm_v8_NC_015447.3_ssr_train_models_261015_165813.h5",
+      "models/ssr/Zmay_S1X0.75dPm_v8_NC_050103.1_ssr_train_models_261015_170528.h5"
     ],
     "chromosomes": [
       "NW_018742204.1",
@@ -46,7 +46,7 @@
     ],
     "ignore_small_genes": true,
     "prediction_models": [
-      "models/Hvul_S1X0.75dPm_v8val_seed2026_NC_058521.1_ssr_train_models_261015_171243.h5"
+      "models/ssr/Hvul_S1X0.75dPm_v8_NC_058521.1_ssr_train_models_261015_171243.h5"
     ],
     "output_path": "EXTERNAL/predictions/deployed_root_Hvul_deepcre_crosspredict_Cqui_root.csv"
   }
