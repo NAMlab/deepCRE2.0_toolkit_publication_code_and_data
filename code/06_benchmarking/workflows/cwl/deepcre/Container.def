@@ -1,0 +1,41 @@
+Bootstrap: docker
+From: mambaorg/micromamba:2.8.1-cuda11.7.1-ubuntu22.04
+# Use micromamba for package handling
+
+%files
+    # Copy the DeepCRE folder
+    ./deepcre /app/deepcre
+
+    # Copy the DeepCRE environment
+    ./cwl/deepcre/environment.yml /app/environment.yml
+
+    # Copy ModelPipelineIO
+    ./ModelPipelineIO /app/ModelPipelineIO
+%post
+    # Install git and build tools
+    apt-get update && apt-get install -y \
+        build-essential  \
+        git
+    rm -rf /var/lib/apt/lists/*
+
+    # Install the environment from file
+    micromamba install --yes --quiet --name base -f /app/environment.yml
+
+    # Install the package in the DeepCRE folder using pip
+    cd /app/deepcre
+    micromamba run -n base pip install -e .
+
+    # Clean up lock files
+    micromamba clean -a --yes
+
+%environment
+    # Add mamba to the path to ensure python is executable
+    export PATH=/opt/conda/bin:$PATH
+
+%runscript
+    # Execute the input command with activated base environment
+    exec "$@"
+
+%test
+    # Test that python with modelpio is available in the container
+    python -c "import tensorflow"

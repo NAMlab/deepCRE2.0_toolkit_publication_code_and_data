@@ -1,0 +1,40 @@
+Bootstrap: docker
+From: mambaorg/micromamba:2.8.1-cuda12.4.1-ubuntu22.04
+# Use micromamba for package handling
+
+%files
+    # Copy the PlantCAD folder
+    ./plantcad /app/plantcad
+
+    # Copy the PlantCAD environment
+    ./cwl/plantcad/environment.yml /app/environment.yml
+
+    # Copy the PlantCAD additional requirements
+    ./cwl/plantcad/additional-requirements.txt /app/additional-requirements.txt
+%post
+    # Install git and build tools
+    apt-get update && apt-get install -y \
+        build-essential  \
+        git
+    rm -rf /var/lib/apt/lists/*
+
+    # Install the environment from file
+    micromamba install --yes --quiet --name base -f /app/environment.yml
+
+    # Install the additional requirements
+    micromamba run -n base pip install -r /app/additional-requirements.txt --no-build-isolation
+
+    # Clean up lock files
+    micromamba clean -a --yes
+
+%environment
+    # Add mamba to the path to ensure python is executable
+    export PATH=/opt/conda/bin:$PATH
+
+%runscript
+    # Execute the input command with activated base environment
+    exec "$@"
+
+%test
+    # Test that python with modelpio is available in the container
+    python -c "import torch; print(torch.cuda.is_available())"
