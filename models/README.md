@@ -1,4 +1,6 @@
 # Trained deepCRE Models (`models/`)
+The models deployed on the deepCRE toolkit website (https://deepcre.ipk-gatersleben.de/) are labeled as such in model_id_mapping.tsv (column "deployed"==TRUE)
+
 
 All trained Keras `.h5` weights (~4.8 MB each) are stored in this repository:
 
