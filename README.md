@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/github/1474269400.svg)](https://doi.org/10.5281/zenodo.24597674)
 # deepCRE Toolkit (Peleke et al., 2026): Publication Code, Data, Models, and Results
 
 Repository accompanying Peleke et al. (2026) (*"dAccessible multi-species prediction of plant gene cis-regulation with deepCRE"*). It collects the curated expression data, gene annotations, training configurations, trained model archives, evaluation tables, and figure/note scripts behind the deepCRE models served at https://deepcre.ipk-gatersleben.de (13 flowering plant species × leaf and root; 232 single-species [SSR], 217 archived shuffled-sequence control [SSC], and 52 multi-species [MSR] models, plus the 45 Peleke et al. 2024 reference models).
