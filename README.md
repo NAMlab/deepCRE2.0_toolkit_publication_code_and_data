@@ -5,8 +5,6 @@ Repository accompanying Peleke et al. (2026) (*"dAccessible multi-species predic
 
 All Code, Data and Models have been reviewed and are authored by Simon M. Zumkeller.
 
-> **Scope note:** The benchmark comparing deepCRE against PhytoExpr and PlantCAD2 (Figure 3 and Supplementary Figure 3 of the manuscript) was generated externally by Tobias Pfennig.
-
 ---
 
 ## Repository Layout
@@ -20,6 +18,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 | `code/04_figures/` | Publication figure scripts for Figure 1, Figure 2 (leaf), Supplementary Figure 1 (root), Supplementary Figure 2 (cross-tissue), and the Source Data Excel workbook. | [`code/04_figures/README.md`](code/04_figures/README.md) |
 | `code/05_supplementary_figures/` | TensorFlow 2.10 inference/DeepSHAP scripts and pre-computed tables reproducing Supplementary Figures 5 (promoter swaps + ZmUBI1 + conserved-block mutations) and 6 (RAP2.12 haplotype/permutation analyses across 2024 and 2026 models). | [`code/05_supplementary_figures/README.md`](code/05_supplementary_figures/README.md) |
 | `code/06_annotation_frame/` | Scripts and summary TSVs for Supplementary Note 4 (quantifying 5' TSS frame differences and prediction accuracy between Helixer training windows and TAIR10/RefSeq curated annotations across species). | [`code/06_annotation_frame/README.md`](code/06_annotation_frame/README.md) |
+| `code/06_benchmarking/` | Benchmark of deepCRE against PhytoExpr and PlantCaduceus (PlantCAD2) on the *A. thaliana* and *Z. mays* genomes (Figure 3 and Supplementary Figure 3): CWL workflows, Docker/Singularity container definitions, environments and setup scripts; the model code is included as git submodules in `workflows/` (`deepcre`, `phytoexpr`, `plantcad`, `ModelPipelineIO`, `PanGenomeTools`). | [`code/06_benchmarking/README.md`](code/06_benchmarking/README.md) |
 | `results/` | Final evaluation tables (`final/`, `msr/`, `ssc_control/`, `tissue_cross/`) and Table 2 expression-threshold comparison (`label_thresholds_20261126/`). | [`results/README.md`](results/README.md) |
 | `models/` | Trained `.h5` models in `ssr/`, `ssc/`, `msr/`, `peleke2024/`; `model_id_mapping.tsv` (515 2026 models), and `peleke2024_models.tsv` (45 models from Peleke et al., 2024). | [`models/README.md`](models/README.md) |
 | `tutorial/` | Web-tool tutorial inputs (`File_1`–`File_3`, corresponding to Supplementary files 1–3) and tutorial result CSVs (`Tutorial_table{1,2,3}_*.csv`). | [`tutorial/README.md`](tutorial/README.md) |
@@ -47,6 +46,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 | Figure 2 (leaf), Supplementary Figure 1 (root), Supplementary Figure 2 (cross-tissue), Source Data | `code/04_figures/make_fig2_comprehensive.{0,2}.py`, `make_suppfig1_root.2.py`, `make_suppfig2_tissue.7.py`, `make_pub_figures_split.7.py`, `build_source_data_fig2.5.py` | `results/evaluation/` → `EXTERNAL/figure_output/` (or `$FIG_OUT_DIR`) + Source Data `.xlsx` |
 | Supplementary Figures 5 (promoter swaps) and 6 (RAP2.12 variants) | `code/05_supplementary_figures/` (11 inference/DeepSHAP scripts + `make_supp_figures_full.{0,15}.py`, `make_suppfig6_classic.{0,14}.py`) | `tutorial/`, `models/`, TSV/NPZ intermediates in `code/05_supplementary_figures/` → figure PNGs + legend `.txt` |
 | Supplementary Note 4 (annotation frame comparison) | `code/06_annotation_frame/annotation_shift_run{A,B,C,D}.0.py`, `annotation_frame_runE.1.py`, `annotation_frame_runF.0.py` | `data/`, `models/`, `EXTERNAL/refseq_gff/` → `code/06_annotation_frame/*.tsv` |
+| Figure 3 and Supplementary Figure 3 (benchmark against PhytoExpr and PlantCAD2) | `code/06_benchmarking/` (CWL workflows and model submodules) | *A. thaliana* and *Z. mays* genomes and expression data → per-model predictions and benchmark metrics; see [`code/06_benchmarking/README.md`](code/06_benchmarking/README.md) |
 | *A. thaliana* curated-window TAIR10 models | `code/02_training/tair10_exception/` | `arabidopsis_thaliana_{leaf,root}_*_TAIR10.csv`, `validation_set_*.tair10.pickle` → `Atha_TAIR10_*` models |
 
 > **Reproducibility check:** Running `make_fig2_comprehensive.2.py`, `make_suppfig1_root.2.py`, and `make_suppfig2_tissue.7.py` from `results/` reproduces the plotted values of Figure 2, Supplementary Figure 1, and Supplementary Figure 2 byte for byte, and `build_source_data_fig2.5.py` and `build_supplementary_data1.1.py` reproduce every sheet of the Source Data and Supplementary Data 1 workbooks.
