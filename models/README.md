@@ -1,5 +1,5 @@
 # Trained deepCRE Models (`models/`)
-The models deployed on the deepCRE toolkit website (https://deepcre.ipk-gatersleben.de/) are labeled as such in model_id_mapping.tsv (column "deployed"==TRUE)
+All models served on the deepCRE toolkit website (https://deepcre.ipk-gatersleben.de/) are listed in [`deployed_models.tsv`](deployed_models.tsv): 26 single-species models, 2 multi-species models (all 13 species, *B. oleracea* held out) and 8 Peleke et al. (2024) models, with the file name on the website, the file in this directory, accuracy, auROC, MCC and SHA-256. Metrics: single-species models on the paralog-filtered validation genes of their held-out chromosome; multi-species models on the held-out species. The 2024 models were not evaluated in this study (metrics empty). Built by `code/03_evaluation/build_web_model_manifest.2.py`.
 
 
 All trained Keras `.h5` weights (~4.8 MB each) are stored in this repository:

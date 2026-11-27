@@ -36,6 +36,7 @@ All scripts below read raw prediction CSVs (`EXTERNAL/predictions/`) and/or `dat
 | `tissue_switch_performance.0.py` | Computes thresholded accuracy/MCC and threshold-free auROC on tissue-switching genes for SSR & MSR models. | `tissue_cross/tissue_switch_performance.tsv` (**Supp. Fig. 2m,o**) | `python3 code/03_evaluation/tissue_switch_performance.0.py <ssr_pred_dir> <msr_pred_dir> <out.tsv>` |
 | `build_supplementary_data1.1.py` | Packages `final/`, `msr/`, and `ssc_control_per_fold.tsv` into the multi-sheet Excel workbook. *(Note: internal `LEGEND` string preserves working label `"Supplementary Data 6"` matching the original submission; published as Supplementary Data 1.)* | **Supplementary Data 1** `.xlsx` (offline-runnable directly from `results/evaluation`) | `python3 code/03_evaluation/build_supplementary_data1.1.py results/evaluation results/evaluation/ssc_control/ssc_control_per_fold.tsv <out.xlsx>` |
 | `build_web_model_manifest.1.py` | Builds the 28-model web-tool deployment manifest (`26` SSR + `2` *B. oleracea* held-out `MSR_all` models) with SHA-256 verification. | `manifest.tsv` for `NAMlab/streamlit_deepcre_app` | `python3 code/03_evaluation/build_web_model_manifest.1.py <model_id_dir> <per_fold.tsv> <msr_dir> <prev_manifest|NONE> <out.tsv>` |
+| `build_web_model_manifest.2.py` | Lists all web-tool models (`26` SSR + `2` MSR + `8` Peleke et al. 2024) with path in `models/`, metrics and SHA-256. | `models/deployed_models.tsv` |
 
 ---
 
