@@ -10,3 +10,9 @@
 [submodule "code/06_benchmarking/workflows/phytoexpr"]
 	path = code/06_benchmarking/workflows/phytoexpr
 	url = https://github.com/NAMlab/PhytoExpr-inofficial.git
+[submodule "code/06_benchmarking/workflows/ModelPipelineIO"]
+	path = code/06_benchmarking/workflows/ModelPipelineIO
+	url = https://github.com/pfennigt/ModelPipelineIO.git
+[submodule "code/06_benchmarking/workflows/PanGenomeTools"]
+	path = code/06_benchmarking/workflows/PanGenomeTools
+	url = https://github.com/pfennigt/PanGenomeTools.git
