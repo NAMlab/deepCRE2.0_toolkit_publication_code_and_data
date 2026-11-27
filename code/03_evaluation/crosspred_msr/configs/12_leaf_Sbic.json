@@ -1,0 +1,49 @@
+[
+  {
+    "genome": "data/sorghum_bicolor/genome/GCF_000003195.3.fna",
+    "annotation": "data/sorghum_bicolor/Sorghum_bicolor-GCF_000003195.3-genome.helixer.agat.gtf",
+    "targets": "data/sorghum_bicolor/sorghum_bicolor_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "prediction_models": [
+      "models/MSR_dPm_all_leaf_seed2026_Atha_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Bole_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Bvul_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Cqui_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Csat_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Cucu_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Dcar_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Gmax_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Hvul_dPm_leaf_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Osat_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Sbic_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Slyc_dPm_leaf_msr_train_models_261015_171428.h5",
+      "models/MSR_dPm_all_leaf_seed2026_Zmay_dPm_leaf_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Atha_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Bole_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Bvul_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Cqui_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Csat_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Cucu_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Dcar_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Gmax_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_dicots_leaf_seed2026_Slyc_dPm_leaf_msr_train_models_261015_171713.h5",
+      "models/MSR_dPm_monocots_leaf_seed2026_Hvul_dPm_leaf_msr_train_models_261015_181848.h5",
+      "models/MSR_dPm_monocots_leaf_seed2026_Osat_dPm_leaf_msr_train_models_261015_181848.h5",
+      "models/MSR_dPm_monocots_leaf_seed2026_Sbic_dPm_leaf_msr_train_models_261015_181848.h5",
+      "models/MSR_dPm_monocots_leaf_seed2026_Zmay_dPm_leaf_msr_train_models_261015_181848.h5"
+    ],
+    "chromosomes": [
+      "NC_012870.2",
+      "NC_012871.2",
+      "NC_012872.2",
+      "NC_012873.2",
+      "NC_012874.2",
+      "NC_012875.2",
+      "NC_012876.2",
+      "NC_012877.2",
+      "NC_012878.2",
+      "NC_012879.2"
+    ],
+    "ignore_small_genes": true,
+    "output_path": "EXTERNAL/predictions/MSR_leaf_deepcre_crosspredict_Sbic_leaf.csv"
+  }
+]

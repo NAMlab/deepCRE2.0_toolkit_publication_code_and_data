@@ -1,0 +1,85 @@
+[
+  {
+    "species_data": [
+      {
+        "species_name": "Osat_dPm_leaf",
+        "genome": "data/oryza_sativa/genome/GCF_001433935.1.fna",
+        "annotation": "data/oryza_sativa/Oryza_sativa_Japonica_Group-GCF_001433935.1-genome.helixer.agat.gtf",
+        "targets": "data/oryza_sativa/oryza_sativa_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_029256.1",
+          "NC_029257.1",
+          "NC_029258.1",
+          "NC_029259.1",
+          "NC_029260.1",
+          "NC_029261.1",
+          "NC_029262.1",
+          "NC_029263.1",
+          "NC_029264.1",
+          "NC_029265.1",
+          "NC_029266.1",
+          "NC_029267.1"
+        ],
+        "pickle_key": "osat"
+      },
+      {
+        "species_name": "Sbic_dPm_leaf",
+        "genome": "data/sorghum_bicolor/genome/GCF_000003195.3.fna",
+        "annotation": "data/sorghum_bicolor/Sorghum_bicolor-GCF_000003195.3-genome.helixer.agat.gtf",
+        "targets": "data/sorghum_bicolor/sorghum_bicolor_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_012870.2",
+          "NC_012871.2",
+          "NC_012872.2",
+          "NC_012873.2",
+          "NC_012874.2",
+          "NC_012875.2",
+          "NC_012876.2",
+          "NC_012877.2",
+          "NC_012878.2",
+          "NC_012879.2"
+        ],
+        "pickle_key": "sbic"
+      },
+      {
+        "species_name": "Zmay_dPm_leaf",
+        "genome": "data/zea_mays/genome/GCF_902167145.1.fna",
+        "annotation": "data/zea_mays/Zea_mays-GCF_902167145.1-genome.helixer.agat.gtf",
+        "targets": "data/zea_mays/zea_mays_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_050096.1",
+          "NC_050097.1",
+          "NC_050098.1",
+          "NC_050099.1",
+          "NC_050100.1",
+          "NC_050101.1",
+          "NC_050102.1",
+          "NC_050103.1",
+          "NC_050104.1",
+          "NC_050105.1"
+        ],
+        "pickle_key": "zmay"
+      },
+      {
+        "species_name": "Hvul_dPm_leaf",
+        "genome": "data/hordeum_vulgare/genome/GCF_904849725.1.fna",
+        "annotation": "data/hordeum_vulgare/hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509.agat.gtf",
+        "targets": "data/hordeum_vulgare/hordeum_vulgare_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_058518.1",
+          "NC_058519.1",
+          "NC_058520.1",
+          "NC_058521.1",
+          "NC_058522.1",
+          "NC_058523.1",
+          "NC_058524.1"
+        ],
+        "pickle_key": "hvul"
+      }
+    ],
+    "model_case": "msr",
+    "output_name": "MSR_dPm_monocots_leaf_seed2026",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

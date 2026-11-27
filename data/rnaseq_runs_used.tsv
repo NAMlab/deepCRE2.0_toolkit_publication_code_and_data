@@ -1,0 +1,155 @@
+species	tissue	run_accession	in_SuppTable1	kallisto_version	n_reads_processed	pct_pseudoaligned	kallisto_call
+arabidopsis_thaliana	shoot	ERR7425482	no	0.50.1	26548209	95.9	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR7425482 ERR7425482_trimmed_paired_for.fastq ERR7425482_trimmed_paired_rev.fastq
+arabidopsis_thaliana	shoot	ERR12386960	no	0.50.1	20100763	96.0	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR12386960 ERR12386960_trimmed_paired_for.fastq ERR12386960_trimmed_paired_rev.fastq
+arabidopsis_thaliana	shoot	ERR7425481	no	0.50.1	32946312	96.0	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR7425481 ERR7425481_trimmed_paired_for.fastq ERR7425481_trimmed_paired_rev.fastq
+arabidopsis_thaliana	shoot	ERR7425480	no	0.50.1	28246468	95.8	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR7425480 ERR7425480_trimmed_paired_for.fastq ERR7425480_trimmed_paired_rev.fastq
+arabidopsis_thaliana	shoot	ERR12386953	no	0.50.1	20867227	95.6	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR12386953 ERR12386953_trimmed_paired_for.fastq ERR12386953_trimmed_paired_rev.fastq
+arabidopsis_thaliana	leaf	ERR6797412	no	0.50.1	22450503	96.1	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR6797412 ERR6797412_trimmed_paired_for.fastq ERR6797412_trimmed_paired_rev.fastq
+arabidopsis_thaliana	leaf	ERR2869076	no	0.50.1	18983313	87.3	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR2869076 ERR2869076_trimmed_paired_for.fastq ERR2869076_trimmed_paired_rev.fastq
+arabidopsis_thaliana	leaf	ERR2869075	no	0.50.1	26546980	80.9	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR2869075 ERR2869075_trimmed_paired_for.fastq ERR2869075_trimmed_paired_rev.fastq
+arabidopsis_thaliana	leaf	ERR6797414	no	0.50.1	23643910	96.0	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR6797414 ERR6797414_trimmed_paired_for.fastq ERR6797414_trimmed_paired_rev.fastq
+arabidopsis_thaliana	root	ERR2273077	no	0.50.1	25102000	85.8	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR2273077 ERR2273077_trimmed_paired_for.fastq ERR2273077_trimmed_paired_rev.fastq
+arabidopsis_thaliana	root	ERR12386962	no	0.50.1	21400534	91.1	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR12386962 ERR12386962_trimmed_paired_for.fastq ERR12386962_trimmed_paired_rev.fastq
+arabidopsis_thaliana	root	ERR2273075	no	0.50.1	24878126	84.6	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR2273075 ERR2273075_trimmed_paired_for.fastq ERR2273075_trimmed_paired_rev.fastq
+arabidopsis_thaliana	root	ERR12386955	no	0.50.1	21357004	90.8	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR12386955 ERR12386955_trimmed_paired_for.fastq ERR12386955_trimmed_paired_rev.fastq
+arabidopsis_thaliana	root	ERR2273076	no	0.50.1	24618153	83.0	kallisto quant -i GCF_000001735.4-genome_cdna.index -o ERR2273076 ERR2273076_trimmed_paired_for.fastq ERR2273076_trimmed_paired_rev.fastq
+beta_vulgaris	leaf	SRR10990200	yes	0.50.1	14324524	75.0	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990200 SRR10990200_trimmed_paired_for.fastq SRR10990200_trimmed_paired_rev.fastq
+beta_vulgaris	leaf	SRR10990205	yes	0.50.1	34945913	76.2	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990205 SRR10990205_trimmed_paired_for.fastq SRR10990205_trimmed_paired_rev.fastq
+beta_vulgaris	leaf	SRR10990202	yes	0.50.1	60115760	73.1	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990202 SRR10990202_trimmed_paired_for.fastq SRR10990202_trimmed_paired_rev.fastq
+beta_vulgaris	leaf	SRR10990206	yes	0.50.1	38218437	74.2	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990206 SRR10990206_trimmed_paired_for.fastq SRR10990206_trimmed_paired_rev.fastq
+beta_vulgaris	leaf	SRR10990201	yes	0.50.1	30631363	73.1	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990201 SRR10990201_trimmed_paired_for.fastq SRR10990201_trimmed_paired_rev.fastq
+beta_vulgaris	root	SRR11243751	yes	0.50.1	24022340	81.7	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR11243751 SRR11243751_trimmed_paired_for.fastq SRR11243751_trimmed_paired_rev.fastq
+beta_vulgaris	root	SRR10990182	yes	0.50.1	44958889	75.6	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990182 SRR10990182_trimmed_paired_for.fastq SRR10990182_trimmed_paired_rev.fastq
+beta_vulgaris	root	SRR10990181	yes	0.50.1	27782675	72.5	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990181 SRR10990181_trimmed_paired_for.fastq SRR10990181_trimmed_paired_rev.fastq
+beta_vulgaris	root	SRR10990184	yes	0.50.1	39065938	75.6	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR10990184 SRR10990184_trimmed_paired_for.fastq SRR10990184_trimmed_paired_rev.fastq
+beta_vulgaris	root	SRR11243750	yes	0.50.1	28087470	78.4	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR11243750 SRR11243750_trimmed_paired_for.fastq SRR11243750_trimmed_paired_rev.fastq
+beta_vulgaris	shoot	SRR15205251	no	0.50.1	43608926	75.6	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR15205251 SRR15205251_trimmed_paired_for.fastq SRR15205251_trimmed_paired_rev.fastq
+beta_vulgaris	shoot	SRR15205264	no	0.50.1	40726114	72.2	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR15205264 SRR15205264_trimmed_paired_for.fastq SRR15205264_trimmed_paired_rev.fastq
+beta_vulgaris	shoot	SRR15205258	no	0.50.1	47459485	67.7	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR15205258 SRR15205258_trimmed_paired_for.fastq SRR15205258_trimmed_paired_rev.fastq
+beta_vulgaris	shoot	SRR15205267	no	0.50.1	29771689	69.7	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR15205267 SRR15205267_trimmed_paired_for.fastq SRR15205267_trimmed_paired_rev.fastq
+beta_vulgaris	shoot	SRR15205265	no	0.50.1	43048574	69.8	kallisto quant -i GCF_002917755.1-genome_cdna_V2.index -o SRR15205265 SRR15205265_trimmed_paired_for.fastq SRR15205265_trimmed_paired_rev.fastq
+brassica_oleracea	leaf	SRR27183516	yes	0.50.1	25232177	82.9	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR27183516 SRR27183516_trimmed_paired_for.fastq SRR27183516_trimmed_paired_rev.fastq
+brassica_oleracea	leaf	SRR27183515	yes	0.50.1	23254497	82.9	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR27183515 SRR27183515_trimmed_paired_for.fastq SRR27183515_trimmed_paired_rev.fastq
+brassica_oleracea	leaf	SRR27183512	yes	0.50.1	25300825	83.3	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR27183512 SRR27183512_trimmed_paired_for.fastq SRR27183512_trimmed_paired_rev.fastq
+brassica_oleracea	root	SRR13759396	yes	0.50.1	22606881	84.3	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13759396 SRR13759396_trimmed_paired_for.fastq SRR13759396_trimmed_paired_rev.fastq
+brassica_oleracea	root	SRR13709416	yes	0.50.1	19589673	82.3	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13709416 SRR13709416_trimmed_paired_for.fastq SRR13709416_trimmed_paired_rev.fastq
+brassica_oleracea	shoot	SRR13709426	no	0.50.1	18988552	80.2	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13709426 SRR13709426_trimmed_paired_for.fastq SRR13709426_trimmed_paired_rev.fastq
+brassica_oleracea	shoot	SRR13709421	no	0.50.1	18662452	78.2	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13709421 SRR13709421_trimmed_paired_for.fastq SRR13709421_trimmed_paired_rev.fastq
+brassica_oleracea	shoot	SRR13709425	no	0.50.1	22266661	79.6	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13709425 SRR13709425_trimmed_paired_for.fastq SRR13709425_trimmed_paired_rev.fastq
+brassica_oleracea	shoot	SRR13709410	no	0.50.1	16836585	82.5	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13709410 SRR13709410_trimmed_paired_for.fastq SRR13709410_trimmed_paired_rev.fastq
+brassica_oleracea	shoot	SRR13709424	no	0.50.1	21716713	82.8	kallisto quant -i GCF_000695525.1-genome_cdna_V2.index -o SRR13709424 SRR13709424_trimmed_paired_for.fastq SRR13709424_trimmed_paired_rev.fastq
+camelina_sativa	shoot	SRR5920412	no	0.50.1	29335858	86.9	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR5920412 SRR5920412_trimmed_paired_for.fastq SRR5920412_trimmed_paired_rev.fastq
+camelina_sativa	shoot	SRR5920414	no	0.50.1	34171093	89.1	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR5920414 SRR5920414_trimmed_paired_for.fastq SRR5920414_trimmed_paired_rev.fastq
+camelina_sativa	shoot	SRR5920413	no	0.50.1	16767250	87.3	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR5920413 SRR5920413_trimmed_paired_for.fastq SRR5920413_trimmed_paired_rev.fastq
+camelina_sativa	root	SRR5920407	yes	0.50.1	33024710	86.3	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR5920407 SRR5920407_trimmed_paired_for.fastq SRR5920407_trimmed_paired_rev.fastq
+camelina_sativa	root	SRR5920406	yes	0.50.1	37672818	86.5	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR5920406 SRR5920406_trimmed_paired_for.fastq SRR5920406_trimmed_paired_rev.fastq
+camelina_sativa	root	SRR5920408	no	0.50.1	18879091	85.8	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR5920408 SRR5920408_trimmed_paired_for.fastq SRR5920408_trimmed_paired_rev.fastq
+camelina_sativa	leaf	SRR11952730	yes	0.50.1	52319655	83.4	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR11952730 SRR11952730_trimmed_paired_for.fastq SRR11952730_trimmed_paired_rev.fastq
+camelina_sativa	leaf	SRR2163607	no	0.50.1	22944425	80.8	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR2163607 SRR2163607_trimmed_paired_for.fastq SRR2163607_trimmed_paired_rev.fastq
+camelina_sativa	leaf	SRR11952744	yes	0.50.1	33413008	82.7	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR11952744 SRR11952744_trimmed_paired_for.fastq SRR11952744_trimmed_paired_rev.fastq
+camelina_sativa	leaf	SRR2163605	no	0.50.1	21309034	79.8	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR2163605 SRR2163605_trimmed_paired_for.fastq SRR2163605_trimmed_paired_rev.fastq
+camelina_sativa	leaf	SRR2163608	no	0.50.1	19318649	81.3	kallisto quant -i GCF_000633955.1-genome_cdna_V2.index -o SRR2163608 SRR2163608_trimmed_paired_for.fastq SRR2163608_trimmed_paired_rev.fastq
+cucumis_sativus	leaf	SRR11831474	yes	0.50.1	22894552	87.4	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR11831474 SRR11831474_trimmed_paired_for.fastq SRR11831474_trimmed_paired_rev.fastq
+cucumis_sativus	leaf	SRR11831473	yes	0.50.1	22944360	86.4	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR11831473 SRR11831473_trimmed_paired_for.fastq SRR11831473_trimmed_paired_rev.fastq
+cucumis_sativus	leaf	SRR21604282	no	0.50.1	26709302	87.2	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR21604282 SRR21604282_trimmed_paired_for.fastq SRR21604282_trimmed_paired_rev.fastq
+cucumis_sativus	leaf	SRR11831475	yes	0.50.1	23084506	85.3	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR11831475 SRR11831475_trimmed_paired_for.fastq SRR11831475_trimmed_paired_rev.fastq
+cucumis_sativus	leaf	SRR21604281	no	0.50.1	22858561	88.2	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR21604281 SRR21604281_trimmed_paired_for.fastq SRR21604281_trimmed_paired_rev.fastq
+cucumis_sativus	root	SRR27797406	yes	0.50.1	20068007	68.2	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR27797406 SRR27797406_trimmed_paired_for.fastq SRR27797406_trimmed_paired_rev.fastq
+cucumis_sativus	root	SRR27797402	yes	0.50.1	21054531	85.5	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR27797402 SRR27797402_trimmed_paired_for.fastq SRR27797402_trimmed_paired_rev.fastq
+cucumis_sativus	root	SRR27797405	yes	0.50.1	20731412	76.4	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR27797405 SRR27797405_trimmed_paired_for.fastq SRR27797405_trimmed_paired_rev.fastq
+cucumis_sativus	root	SRR27797404	yes	0.50.1	21257687	76.4	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR27797404 SRR27797404_trimmed_paired_for.fastq SRR27797404_trimmed_paired_rev.fastq
+cucumis_sativus	root	SRR27797403	yes	0.50.1	20543219	76.4	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR27797403 SRR27797403_trimmed_paired_for.fastq SRR27797403_trimmed_paired_rev.fastq
+cucumis_sativus	shoot	SRR18840627	no	0.50.1	25462424	81.1	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR18840627 SRR18840627_trimmed_paired_for.fastq SRR18840627_trimmed_paired_rev.fastq
+cucumis_sativus	shoot	SRR18840629	no	0.50.1	26943238	85.1	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR18840629 SRR18840629_trimmed_paired_for.fastq SRR18840629_trimmed_paired_rev.fastq
+cucumis_sativus	shoot	SRR18840630	no	0.50.1	27142902	86.9	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR18840630 SRR18840630_trimmed_paired_for.fastq SRR18840630_trimmed_paired_rev.fastq
+cucumis_sativus	shoot	SRR18840631	no	0.50.1	20154933	84.8	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR18840631 SRR18840631_trimmed_paired_for.fastq SRR18840631_trimmed_paired_rev.fastq
+cucumis_sativus	shoot	SRR18840628	no	0.50.1	24445146	81.5	kallisto quant -i GCF_000004075.3-genome_cdna_V2.index -o SRR18840628 SRR18840628_trimmed_paired_for.fastq SRR18840628_trimmed_paired_rev.fastq
+daucus_carota	root	SRR25296935	yes	0.50.1	28655544	86.0	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR25296935 SRR25296935_trimmed_paired_for.fastq SRR25296935_trimmed_paired_rev.fastq
+daucus_carota	root	SRR25296936	yes	0.50.1	27314009	85.3	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR25296936 SRR25296936_trimmed_paired_for.fastq SRR25296936_trimmed_paired_rev.fastq
+daucus_carota	root	SRR25296933	yes	0.50.1	27837618	84.8	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR25296933 SRR25296933_trimmed_paired_for.fastq SRR25296933_trimmed_paired_rev.fastq
+daucus_carota	root	SRR25296934	yes	0.50.1	30604048	85.3	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR25296934 SRR25296934_trimmed_paired_for.fastq SRR25296934_trimmed_paired_rev.fastq
+daucus_carota	root	SRR25296937	yes	0.50.1	30685302	85.8	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR25296937 SRR25296937_trimmed_paired_for.fastq SRR25296937_trimmed_paired_rev.fastq
+daucus_carota	leaf	SRR13799087	yes	0.50.1	26612259	84.8	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR13799087 SRR13799087_trimmed_paired_for.fastq SRR13799087_trimmed_paired_rev.fastq
+daucus_carota	leaf	SRR13799086	yes	0.50.1	25674985	84.8	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR13799086 SRR13799086_trimmed_paired_for.fastq SRR13799086_trimmed_paired_rev.fastq
+daucus_carota	leaf	SRR13799088	no	0.50.1	26356018	85.1	kallisto quant -i GCF_001625215.1-genome_cdna_V2.index -o SRR13799088 SRR13799088_trimmed_paired_for.fastq SRR13799088_trimmed_paired_rev.fastq
+glycine_max	root	SRR12824667	no	0.50.1	28699894	86.0	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR12824667 SRR12824667_trimmed_paired_for.fastq SRR12824667_trimmed_paired_rev.fastq
+glycine_max	root	SRR26487800	yes	0.50.1	22586183	78.0	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26487800 SRR26487800_trimmed_paired_for.fastq SRR26487800_trimmed_paired_rev.fastq
+glycine_max	root	SRR26487801	yes	0.50.1	22389906	76.9	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26487801 SRR26487801_trimmed_paired_for.fastq SRR26487801_trimmed_paired_rev.fastq
+glycine_max	root	SRR12824666	no	0.50.1	31255252	87.0	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR12824666 SRR12824666_trimmed_paired_for.fastq SRR12824666_trimmed_paired_rev.fastq
+glycine_max	root	SRR12824665	no	0.50.1	31492688	87.1	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR12824665 SRR12824665_trimmed_paired_for.fastq SRR12824665_trimmed_paired_rev.fastq
+glycine_max	leaf	SRR26094057	no	0.50.1	25351933	78.5	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26094057 SRR26094057_trimmed_paired_for.fastq SRR26094057_trimmed_paired_rev.fastq
+glycine_max	leaf	SRR26094059	no	0.50.1	23803963	79.9	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26094059 SRR26094059_trimmed_paired_for.fastq SRR26094059_trimmed_paired_rev.fastq
+glycine_max	leaf	SRR26094056	no	0.50.1	22535930	77.8	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26094056 SRR26094056_trimmed_paired_for.fastq SRR26094056_trimmed_paired_rev.fastq
+glycine_max	leaf	SRR26094058	no	0.50.1	23910878	78.2	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26094058 SRR26094058_trimmed_paired_for.fastq SRR26094058_trimmed_paired_rev.fastq
+glycine_max	leaf	SRR26094055	no	0.50.1	21439872	82.3	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR26094055 SRR26094055_trimmed_paired_for.fastq SRR26094055_trimmed_paired_rev.fastq
+glycine_max	shoot	SRR10150567	no	0.50.1	20232532	79.0	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR10150567 SRR10150567_trimmed_paired_for.fastq SRR10150567_trimmed_paired_rev.fastq
+glycine_max	shoot	SRR6796720	no	0.50.1	79917394	19.5	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR6796720 SRR6796720_trimmed_paired_for.fastq SRR6796720_trimmed_paired_rev.fastq
+glycine_max	shoot	SRR6796718	no	0.50.1	84014642	16.5	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR6796718 SRR6796718_trimmed_paired_for.fastq SRR6796718_trimmed_paired_rev.fastq
+glycine_max	shoot	SRR6796717	no	0.50.1	85272997	16.7	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR6796717 SRR6796717_trimmed_paired_for.fastq SRR6796717_trimmed_paired_rev.fastq
+glycine_max	shoot	SRR6796719	no	0.50.1	76944886	18.5	kallisto quant -i GCF_000004515.6-genome_cdna_V2.index -o SRR6796719 SRR6796719_trimmed_paired_for.fastq SRR6796719_trimmed_paired_rev.fastq
+hordeum_vulgare	shoot	SRR18160838	no	0.50.1	50993156	78.8	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR18160838 SRR18160838_trimmed_paired_for.fastq SRR18160838_trimmed_paired_rev.fastq
+hordeum_vulgare	shoot	SRR18160836	no	0.50.1	39252084	79.1	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR18160836 SRR18160836_trimmed_paired_for.fastq SRR18160836_trimmed_paired_rev.fastq
+hordeum_vulgare	shoot	SRR18160841	no	0.50.1	47587535	80.9	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR18160841 SRR18160841_trimmed_paired_for.fastq SRR18160841_trimmed_paired_rev.fastq
+hordeum_vulgare	shoot	SRR18160840	no	0.50.1	40432128	78.4	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR18160840 SRR18160840_trimmed_paired_for.fastq SRR18160840_trimmed_paired_rev.fastq
+hordeum_vulgare	shoot	SRR18160837	no	0.50.1	45003437	77.9	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR18160837 SRR18160837_trimmed_paired_for.fastq SRR18160837_trimmed_paired_rev.fastq
+hordeum_vulgare	leaf	SRR15094365	yes	0.50.1	21119447	74.8	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR15094365 SRR15094365_trimmed_paired_for.fastq SRR15094365_trimmed_paired_rev.fastq
+hordeum_vulgare	leaf	SRR15094368	yes	0.50.1	23154583	75.6	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR15094368 SRR15094368_trimmed_paired_for.fastq SRR15094368_trimmed_paired_rev.fastq
+hordeum_vulgare	leaf	SRR15094366	yes	0.50.1	20444464	66.9	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR15094366 SRR15094366_trimmed_paired_for.fastq SRR15094366_trimmed_paired_rev.fastq
+hordeum_vulgare	leaf	SRR15094364	yes	0.50.1	32109838	75.3	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR15094364 SRR15094364_trimmed_paired_for.fastq SRR15094364_trimmed_paired_rev.fastq
+hordeum_vulgare	leaf	SRR15094367	yes	0.50.1	21169874	74.1	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR15094367 SRR15094367_trimmed_paired_for.fastq SRR15094367_trimmed_paired_rev.fastq
+hordeum_vulgare	root	SRR10960769	yes	0.50.1	56576677	83.6	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR10960769 SRR10960769_trimmed_paired_for.fastq SRR10960769_trimmed_paired_rev.fastq
+hordeum_vulgare	root	SRR10960770	yes	0.50.1	60846344	84.3	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR10960770 SRR10960770_trimmed_paired_for.fastq SRR10960770_trimmed_paired_rev.fastq
+hordeum_vulgare	root	SRR10960768	yes	0.50.1	56843014	83.6	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR10960768 SRR10960768_trimmed_paired_for.fastq SRR10960768_trimmed_paired_rev.fastq
+hordeum_vulgare	root	SRR10960781	yes	0.50.1	55924712	84.8	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR10960781 SRR10960781_trimmed_paired_for.fastq SRR10960781_trimmed_paired_rev.fastq
+hordeum_vulgare	root	SRR10960782	yes	0.50.1	51738185	84.0	kallisto quant -i hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_cdna_V2.index -o SRR10960782 SRR10960782_trimmed_paired_for.fastq SRR10960782_trimmed_paired_rev.fastq
+oryza_sativa	shoot	SRR6511145	no	0.50.1	15560870	79.7	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR6511145 SRR6511145_trimmed_paired_for.fastq SRR6511145_trimmed_paired_rev.fastq
+oryza_sativa	shoot	SRR15351142	no	0.50.1	21664094	82.1	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR15351142 SRR15351142_trimmed_paired_for.fastq SRR15351142_trimmed_paired_rev.fastq
+oryza_sativa	shoot	SRR15351141	no	0.50.1	21723053	73.7	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR15351141 SRR15351141_trimmed_paired_for.fastq SRR15351141_trimmed_paired_rev.fastq
+oryza_sativa	shoot	SRR6511141	no	0.50.1	16571148	78.9	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR6511141 SRR6511141_trimmed_paired_for.fastq SRR6511141_trimmed_paired_rev.fastq
+oryza_sativa	shoot	SRR15351143	no	0.50.1	16705951	83.7	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR15351143 SRR15351143_trimmed_paired_for.fastq SRR15351143_trimmed_paired_rev.fastq
+oryza_sativa	root	SRR17621688	yes	0.50.1	68451576	89.3	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR17621688 SRR17621688_trimmed_paired_for.fastq SRR17621688_trimmed_paired_rev.fastq
+oryza_sativa	root	SRR2040568	yes	0.50.1	34567642	80.9	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR2040568 SRR2040568_trimmed_paired_for.fastq SRR2040568_trimmed_paired_rev.fastq
+oryza_sativa	root	SRR17621689	yes	0.50.1	62747588	89.9	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR17621689 SRR17621689_trimmed_paired_for.fastq SRR17621689_trimmed_paired_rev.fastq
+oryza_sativa	root	SRR22163811	yes	0.50.1	22173379	72.1	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR22163811 SRR22163811_trimmed_paired_for.fastq SRR22163811_trimmed_paired_rev.fastq
+oryza_sativa	root	SRR17621687	yes	0.50.1	68248035	89.3	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR17621687 SRR17621687_trimmed_paired_for.fastq SRR17621687_trimmed_paired_rev.fastq
+oryza_sativa	leaf	SRR10917728	yes	0.50.1	23541705	38.9	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR10917728 SRR10917728_trimmed_paired_for.fastq SRR10917728_trimmed_paired_rev.fastq
+oryza_sativa	leaf	SRR10917727	yes	0.50.1	13865118	38.9	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR10917727 SRR10917727_trimmed_paired_for.fastq SRR10917727_trimmed_paired_rev.fastq
+oryza_sativa	leaf	SRR10917733	yes	0.50.1	24441077	36.7	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR10917733 SRR10917733_trimmed_paired_for.fastq SRR10917733_trimmed_paired_rev.fastq
+oryza_sativa	leaf	SRR10917730	yes	0.50.1	14432246	35.0	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR10917730 SRR10917730_trimmed_paired_for.fastq SRR10917730_trimmed_paired_rev.fastq
+oryza_sativa	leaf	SRR10917729	yes	0.50.1	14095127	39.6	kallisto quant -i GCF_001433935.1-genome_cdna_V2.index -o SRR10917729 SRR10917729_trimmed_paired_for.fastq SRR10917729_trimmed_paired_rev.fastq
+solanum_lycopersicum	leaf	SRR404309	yes	0.50.1	11029076	66.9	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR404309 --single -l 200 -s 20 SRR404309_trimmed.fastq
+solanum_lycopersicum	leaf	SRR404310	yes	0.50.1	10759005	66.8	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR404310 --single -l 200 -s 20 SRR404310_trimmed.fastq
+solanum_lycopersicum	shoot	SRR23694515	no	0.50.1	35102737	86.5	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR23694515 SRR23694515_trimmed_paired_for.fastq SRR23694515_trimmed_paired_rev.fastq
+solanum_lycopersicum	shoot	SRR21168437	no	0.50.1	5408834	1.6	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR21168437 --single -l 200 -s 20 SRR21168437_trimmed.fastq
+solanum_lycopersicum	shoot	SRR23694514	no	0.50.1	34317835	86.6	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR23694514 SRR23694514_trimmed_paired_for.fastq SRR23694514_trimmed_paired_rev.fastq
+solanum_lycopersicum	shoot	SRR23694513	no	0.50.1	33999755	86.6	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR23694513 SRR23694513_trimmed_paired_for.fastq SRR23694513_trimmed_paired_rev.fastq
+solanum_lycopersicum	shoot	SRR21168445	no	0.50.1	4732627	1.4	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR21168445 --single -l 200 -s 20 SRR21168445_trimmed.fastq
+solanum_lycopersicum	root	SRR1740439	yes	0.50.1	27706784	65.3	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR1740439 --single -l 200 -s 20 SRR1740439_trimmed.fastq
+solanum_lycopersicum	root	SRR1740440	yes	0.50.1	27660203	59.5	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR1740440 --single -l 200 -s 20 SRR1740440_trimmed.fastq
+solanum_lycopersicum	root	SRR1740437	yes	0.50.1	24676555	59.9	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR1740437 --single -l 200 -s 20 SRR1740437_trimmed.fastq
+solanum_lycopersicum	root	SRR1740438	yes	0.50.1	28891487	62.8	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR1740438 --single -l 200 -s 20 SRR1740438_trimmed.fastq
+solanum_lycopersicum	root	SRR1740441	yes	0.50.1	28175507	63.5	kallisto quant -i GCF_000188115.5-genome_cdna_V2.index -o SRR1740441 --single -l 200 -s 20 SRR1740441_trimmed.fastq
+sorghum_bicolor	leaf	ERR2096923	yes	0.50.1	4439220	73.7	kallisto quant -i sorghum_bicolor_cdna_vman.index -o ERR2096923 ERR2096923_trimmed_paired_for.fastq ERR2096923_trimmed_paired_rev.fastq
+sorghum_bicolor	leaf	ERR2096924	yes	0.50.1	4405565	73.7	kallisto quant -i sorghum_bicolor_cdna_vman.index -o ERR2096924 ERR2096924_trimmed_paired_for.fastq ERR2096924_trimmed_paired_rev.fastq
+sorghum_bicolor	leaf	ERR2096927	yes	0.50.1	4479323	73.6	kallisto quant -i sorghum_bicolor_cdna_vman.index -o ERR2096927 ERR2096927_trimmed_paired_for.fastq ERR2096927_trimmed_paired_rev.fastq
+sorghum_bicolor	leaf	ERR2096925	yes	0.50.1	4444199	73.6	kallisto quant -i sorghum_bicolor_cdna_vman.index -o ERR2096925 ERR2096925_trimmed_paired_for.fastq ERR2096925_trimmed_paired_rev.fastq
+sorghum_bicolor	leaf	ERR2096926	yes	0.50.1	4454674	73.6	kallisto quant -i sorghum_bicolor_cdna_vman.index -o ERR2096926 ERR2096926_trimmed_paired_for.fastq ERR2096926_trimmed_paired_rev.fastq
+sorghum_bicolor	root	SRR959786	yes	0.50.1	26507547	55.9	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR959786 --single -l 200 -s 20 SRR959786_trimmed.fastq
+sorghum_bicolor	root	SRR959785	yes	0.50.1	18640737	59.9	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR959785 --single -l 200 -s 20 SRR959785_trimmed.fastq
+sorghum_bicolor	root	SRR959782	yes	0.50.1	11913444	57.1	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR959782 --single -l 200 -s 20 SRR959782_trimmed.fastq
+sorghum_bicolor	root	SRR959783	yes	0.50.1	9653775	54.3	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR959783 --single -l 200 -s 20 SRR959783_trimmed.fastq
+sorghum_bicolor	root	SRR959784	yes	0.50.1	17005637	50.9	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR959784 --single -l 200 -s 20 SRR959784_trimmed.fastq
+sorghum_bicolor	shoot	SRR30709694	no	0.50.1	22861507	83.3	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR30709694 SRR30709694_trimmed_paired_for.fastq SRR30709694_trimmed_paired_rev.fastq
+sorghum_bicolor	shoot	SRR30709693	no	0.50.1	22112476	84.4	kallisto quant -i sorghum_bicolor_cdna_vman.index -o SRR30709693 SRR30709693_trimmed_paired_for.fastq SRR30709693_trimmed_paired_rev.fastq
+zea_mays	root	SRR1740453	yes	0.50.1	30103550	59.1	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1740453 --single -l 200 -s 20 SRR1740453_trimmed.fastq
+zea_mays	root	SRR1740454	yes	0.50.1	30183543	61.3	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1740454 --single -l 200 -s 20 SRR1740454_trimmed.fastq
+zea_mays	root	SRR1740455	yes	0.50.1	29018281	56.4	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1740455 --single -l 200 -s 20 SRR1740455_trimmed.fastq
+zea_mays	root	SRR1740452	yes	0.50.1	27955500	59.2	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1740452 --single -l 200 -s 20 SRR1740452_trimmed.fastq
+zea_mays	leaf	SRR1619636	yes	0.50.1	57873504	63.9	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1619636 --single -l 200 -s 20 SRR1619636_trimmed.fastq
+zea_mays	leaf	SRR1619635	yes	0.50.1	83437724	63.5	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1619635 --single -l 200 -s 20 SRR1619635_trimmed.fastq
+zea_mays	leaf	SRR1619633	yes	0.50.1	15527800	60.9	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1619633 --single -l 200 -s 20 SRR1619633_trimmed.fastq
+zea_mays	leaf	SRR1619634	yes	0.50.1	20661711	61.4	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR1619634 --single -l 200 -s 20 SRR1619634_trimmed.fastq
+zea_mays	shoot	SRR12999443	no	0.50.1	27301944	78.9	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR12999443 SRR12999443_trimmed_paired_for.fastq SRR12999443_trimmed_paired_rev.fastq
+zea_mays	shoot	SRR12999440	no	0.50.1	25868766	75.6	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR12999440 SRR12999440_trimmed_paired_for.fastq SRR12999440_trimmed_paired_rev.fastq
+zea_mays	shoot	SRR12999442	no	0.50.1	21468522	74.5	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR12999442 SRR12999442_trimmed_paired_for.fastq SRR12999442_trimmed_paired_rev.fastq
+zea_mays	shoot	SRR12999441	no	0.50.1	25805575	75.6	kallisto quant -i GCF_902167145.1-genome_cdna_V2.index -o SRR12999441 SRR12999441_trimmed_paired_for.fastq SRR12999441_trimmed_paired_rev.fastq

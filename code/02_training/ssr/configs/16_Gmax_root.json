@@ -1,0 +1,23 @@
+[
+  {
+    "model_case": "ssr",
+    "genome": "data/glycine_max/genome/GCF_000004515.6.fna",
+    "annotation": "data/glycine_max/Glycine_max-GCF_000004515.6-genome.helixer.agat.gtf",
+    "targets": "data/glycine_max/glycine_max_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_016088.4",
+      "NC_016089.4",
+      "NC_016091.4",
+      "NC_038242.2",
+      "NC_038245.2",
+      "NC_038246.2",
+      "NC_038251.2",
+      "NC_038254.2",
+      "NC_038255.2"
+    ],
+    "output_name": "Gmax_S1X0.75dPm_v8val_seed2026",
+    "pickle_key": "gmax",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

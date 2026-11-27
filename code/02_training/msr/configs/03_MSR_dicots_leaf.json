@@ -1,0 +1,167 @@
+[
+  {
+    "species_data": [
+      {
+        "species_name": "Atha_dPm_leaf",
+        "genome": "data/arabidopsis_thaliana/genome/GCF_000001735.4.fna",
+        "annotation": "data/arabidopsis_thaliana/Arabidopsis_thaliana-GCF_000001735.4-genome.helixer.agat.gtf",
+        "targets": "data/arabidopsis_thaliana/arabidopsis_thaliana_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_003070.9",
+          "NC_003071.7",
+          "NC_003074.8",
+          "NC_003075.7",
+          "NC_003076.8"
+        ],
+        "pickle_key": "atha"
+      },
+      {
+        "species_name": "Bvul_dPm_leaf",
+        "genome": "data/beta_vulgaris/genome/GCF_002917755.1.fna",
+        "annotation": "data/beta_vulgaris/Beta_vulgaris_subsp_vulgaris-GCF_002917755.1-genome.helixer.agat.gtf",
+        "targets": "data/beta_vulgaris/beta_vulgaris_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_064017.1",
+          "NC_064018.1",
+          "NC_064019.1",
+          "NC_064020.1",
+          "NC_064021.1",
+          "NC_064023.1",
+          "NC_064024.1",
+          "NC_064025.1"
+        ],
+        "pickle_key": "bvul"
+      },
+      {
+        "species_name": "Bole_dPm_leaf",
+        "genome": "data/brassica_oleracea/genome/GCF_000695525.1.fna",
+        "annotation": "data/brassica_oleracea/Brassica_oleracea_var_oleracea-GCF_000695525.1-genome.helixer.agat.gtf",
+        "targets": "data/brassica_oleracea/brassica_oleracea_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_027748.1",
+          "NC_027749.1",
+          "NC_027750.1",
+          "NC_027751.1",
+          "NC_027752.1",
+          "NC_027753.1",
+          "NC_027754.1",
+          "NC_027755.1",
+          "NC_027756.1"
+        ],
+        "pickle_key": "bole"
+      },
+      {
+        "species_name": "Csat_dPm_leaf",
+        "genome": "data/camelina_sativa/genome/GCF_000633955.1.fna",
+        "annotation": "data/camelina_sativa/Camelina_sativa-GCF_000633955.1-genome.helixer.agat.gtf",
+        "targets": "data/camelina_sativa/camelina_sativa_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_025688.1",
+          "NC_025689.1",
+          "NC_025691.1",
+          "NC_025693.1",
+          "NC_025695.1",
+          "NC_025696.1",
+          "NC_025698.1",
+          "NC_025701.1",
+          "NC_025704.1"
+        ],
+        "pickle_key": "csat"
+      },
+      {
+        "species_name": "Cqui_dPm_leaf",
+        "genome": "data/chenopodium_quinoa/genome/GCF_001683475.1.fna",
+        "annotation": "data/chenopodium_quinoa/hlx-Chenopodium_quinoa-GCF_001683475.1-63459.gff.agat.gtf",
+        "targets": "data/chenopodium_quinoa/chenopodium_quinoa_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NW_018742204.1",
+          "NW_018742738.1",
+          "NW_018743252.1",
+          "NW_018743292.1",
+          "NW_018743331.1",
+          "NW_018744239.1",
+          "NW_018745024.1",
+          "NW_018745684.1"
+        ],
+        "pickle_key": "cqui"
+      },
+      {
+        "species_name": "Cucu_dPm_leaf",
+        "genome": "data/cucumis_sativus/genome/GCF_000004075.3.fna",
+        "annotation": "data/cucumis_sativus/Cucumis_sativus-GCF_000004075.3-genome.helixer.agat.gtf",
+        "targets": "data/cucumis_sativus/cucumis_sativus_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_026655.2",
+          "NC_026656.2",
+          "NC_026657.2",
+          "NC_026658.2",
+          "NC_026659.2",
+          "NC_026660.2",
+          "NC_026661.2"
+        ],
+        "pickle_key": "cucu"
+      },
+      {
+        "species_name": "Dcar_dPm_leaf",
+        "genome": "data/daucus_carota/genome/GCF_001625215.1.fna",
+        "annotation": "data/daucus_carota/Daucus_carota_subsp_sativus-GCF_001625215.1-genome.helixer.agat.gtf",
+        "targets": "data/daucus_carota/daucus_carota_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_030381.1",
+          "NC_030382.1",
+          "NC_030383.1",
+          "NC_030384.1",
+          "NC_030385.1",
+          "NC_030386.1",
+          "NC_030387.1",
+          "NC_030388.1",
+          "NC_030389.1"
+        ],
+        "pickle_key": "dcar"
+      },
+      {
+        "species_name": "Gmax_dPm_leaf",
+        "genome": "data/glycine_max/genome/GCF_000004515.6.fna",
+        "annotation": "data/glycine_max/Glycine_max-GCF_000004515.6-genome.helixer.agat.gtf",
+        "targets": "data/glycine_max/glycine_max_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_016088.4",
+          "NC_016089.4",
+          "NC_016091.4",
+          "NC_038242.2",
+          "NC_038245.2",
+          "NC_038246.2",
+          "NC_038251.2",
+          "NC_038254.2",
+          "NC_038255.2"
+        ],
+        "pickle_key": "gmax"
+      },
+      {
+        "species_name": "Slyc_dPm_leaf",
+        "genome": "data/solanum_lycopersicum/genome/GCF_000188115.5.fna",
+        "annotation": "data/solanum_lycopersicum/Solanum_lycopersicum-GCF_000188115.5-genome.helixer.agat.gtf",
+        "targets": "data/solanum_lycopersicum/solanum_lycopersicum_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+        "chromosomes": [
+          "NC_015438.3",
+          "NC_015439.3",
+          "NC_015440.3",
+          "NC_015441.3",
+          "NC_015442.3",
+          "NC_015443.3",
+          "NC_015444.3",
+          "NC_015445.3",
+          "NC_015446.3",
+          "NC_015447.3",
+          "NC_015448.3",
+          "NC_015449.3"
+        ],
+        "pickle_key": "slyc"
+      }
+    ],
+    "model_case": "msr",
+    "output_name": "MSR_dPm_dicots_leaf_seed2026",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "model_case": "ssr",
+    "genome": "data/oryza_sativa/genome/GCF_001433935.1.fna",
+    "annotation": "data/oryza_sativa/Oryza_sativa_Japonica_Group-GCF_001433935.1-genome.helixer.agat.gtf",
+    "targets": "data/oryza_sativa/oryza_sativa_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_029256.1",
+      "NC_029257.1",
+      "NC_029258.1",
+      "NC_029259.1",
+      "NC_029260.1",
+      "NC_029261.1",
+      "NC_029262.1",
+      "NC_029263.1",
+      "NC_029264.1",
+      "NC_029265.1",
+      "NC_029266.1",
+      "NC_029267.1"
+    ],
+    "output_name": "Osat_S0X0.75dPm_v8val_seed2026",
+    "pickle_key": "osat",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

@@ -1,0 +1,151 @@
+Supplementary Figure 5, rebuilt in full, 2024models models (20261109 rerun). ZmUBI1 is a donor added in this rerun and sits in sequence as panel g), so the published panels g-n appear here as h-o.
+
+a) Segmentation of the 3020 bp deepCRE input window; gUR and gTUR are the segments replaced by donor promoter sequence. Donor coordinates were checked against the genes they come from: the AtACT1 donor is identical to window positions 1-1500 of AT2G37620 extracted by the toolkit itself (0 mismatches), the CaMV 35S donor is the 1500 bp immediately upstream of the Hyg(R) start in pGZ14.1021 (GenBank KP100426, exact), and for every donor gURgTUR[1:1000] equals its gUR file and gURgTUR[1001:1500] its gTUR file.
+b-g) Species run left to right by relatedness from Arabidopsis thaliana: Brassicaceae, Caryophyllales, asterids, then the grasses. C. sativa, B. vulgaris and O. sativa are added in this rerun; the published figure had only A. thaliana, S. lycopersicum, S. bicolor and Z. mays. Nine Arabidopsis thaliana genes per bar (n = 9); bars are the mean change in predicted probability of high expression, error bars the standard deviation, points individual genes. Two-sided one-sample t-test of the nine per-gene changes against zero.
+g) ZmUBI1 gTUR: the maize polyubiquitin-1 locus of Zea mays GCF_902167145.1, NC_050100.1 minus strand; the gTUR is the first 500 bp of the transcript, i.e. the 5' UTR exon plus the start of intron 1. Its gUR and gUR+gTUR swaps are in SuppFig5_swaps_allmodels_bars_*.png.
+h, j, l) Predicted probability of MEF1 (AT5G52630) natively and after the donor gTUR swap. i, k, m) DeepSHAP contribution scores summed over the four bases, window positions 950-1560; the dotted line is the gUR/gTUR boundary and the mustard band the aligned high contribution region, the 46 bp window of largest summed |contribution| inside that donor's gTUR, each shown with the model named in the panel title. Regions: AtACT1 1269-1314 (2024 Zea mays (leaf)), OsACT1 1147-1192 (2024 Zea mays (leaf)), PpACT1 1386-1431 (2024 Zea mays (leaf)).
+n) The published OsACT1/AtACT1/PpACT1 alignment (Supplementary file 3, 339 columns; each donor's ungapped 250 bp occupies window positions 1151-1400 of its own gTUR), shown over the block 1185-1230. A dash is a gap. Bold, highlighted columns are identical in all three donors: 16 of the 40 such columns in the whole alignment fall in this 46 bp block, against 7.4 expected (one-sided binomial p = 0.00119), and no 46 bp window of the aligned region holds more. The bar track is the DeepSHAP contribution score of the OsACT1 gTUR swap under 2024 Zea mays (leaf), scaled to its own maximum.
+o) Only window positions 1185-1230 of the OsACT1 gTUR — the 46 bp block of panel n — are pasted into the same positions of each test gene's own window; everything else stays native, so the change is attributable to those 46 bases. Three constructs per gene: the fragment intact, the fragment with all 16 sites conserved across OsACT1/AtACT1/PpACT1 transverted (A<->C, G<->T). Nine genes; the leaf and the root model named below. Brackets give the two-sided paired t-test of the intact fragment against the conserved-site degeneration. A control transverting the same number of NON-conserved sites of the same fragment (mean of 20 seeded draws per gene; drawn sites in fragment_20261109_control_sites.tsv) was run alongside and is reported below but no longer plotted.
+
+panel b)
+  A. thaliana                        gUR                                n= 9  mean   +2.128  SD  8.287  t =  +0.770  p = 0.463  n.s.
+  C. sativa                          gUR                                n= 9  mean  +34.490  SD 24.546  t =  +4.215  p = 0.00293  **
+  B. vulgaris                        gUR                                n= 9  mean   +5.032  SD  4.981  t =  +3.031  p = 0.0163  *
+  S. lycopersicum                    gUR                                n= 9  mean   -2.149  SD  8.611  t =  -0.749  p = 0.475  n.s.
+  O. sativa                          gUR                                n= 9  mean  +10.678  SD 12.885  t =  +2.486  p = 0.0377  *
+  S. bicolor                         gUR                                n= 9  mean  +17.884  SD 14.418  t =  +3.721  p = 0.00586  **
+  Z. mays                            gUR                                n= 9  mean   -9.731  SD 18.095  t =  -1.613  p = 0.145  n.s.
+  A. thaliana                        gTUR                               n= 9  mean  +45.747  SD 35.748  t =  +3.839  p = 0.00495  **
+  C. sativa                          gTUR                               n= 9  mean  +65.582  SD 35.583  t =  +5.529  p = 0.000554  ***
+  B. vulgaris                        gTUR                               n= 9  mean  +13.752  SD 46.786  t =  +0.882  p = 0.404  n.s.
+  S. lycopersicum                    gTUR                               n= 9  mean  +23.959  SD 18.510  t =  +3.883  p = 0.00465  **
+  O. sativa                          gTUR                               n= 9  mean  +78.451  SD 21.925  t = +10.735  p = 4.99e-06  ***
+  S. bicolor                         gTUR                               n= 9  mean  +62.100  SD 23.840  t =  +7.814  p = 5.17e-05  ***
+  Z. mays                            gTUR                               n= 9  mean  +42.888  SD 25.244  t =  +5.097  p = 0.000934  ***
+  A. thaliana                        gUR+gTUR                           n= 9  mean  +45.814  SD 35.904  t =  +3.828  p = 0.00503  **
+  C. sativa                          gUR+gTUR                           n= 9  mean  +65.070  SD 36.050  t =  +5.415  p = 0.000635  ***
+  B. vulgaris                        gUR+gTUR                           n= 9  mean  +15.373  SD 42.663  t =  +1.081  p = 0.311  n.s.
+  S. lycopersicum                    gUR+gTUR                           n= 9  mean  +23.448  SD 18.581  t =  +3.786  p = 0.00534  **
+  O. sativa                          gUR+gTUR                           n= 9  mean  +79.772  SD 22.074  t = +10.842  p = 4.63e-06  ***
+  S. bicolor                         gUR+gTUR                           n= 9  mean  +62.447  SD 23.872  t =  +7.848  p = 5.01e-05  ***
+  Z. mays                            gUR+gTUR                           n= 9  mean  +42.963  SD 25.201  t =  +5.114  p = 0.000913  ***
+
+panel c)
+  A. thaliana                        gUR                                n= 9  mean   -0.224  SD  9.304  t =  -0.072  p = 0.944  n.s.
+  C. sativa                          gUR                                n= 9  mean   +9.738  SD  9.030  t =  +3.235  p = 0.012  *
+  B. vulgaris                        gUR                                n= 9  mean   +6.201  SD 11.610  t =  +1.602  p = 0.148  n.s.
+  S. lycopersicum                    gUR                                n= 9  mean   +8.330  SD 18.238  t =  +1.370  p = 0.208  n.s.
+  O. sativa                          gUR                                n= 9  mean   +5.147  SD  7.987  t =  +1.933  p = 0.0893  n.s.
+  S. bicolor                         gUR                                n= 9  mean  +15.766  SD 18.408  t =  +2.569  p = 0.0332  *
+  Z. mays                            gUR                                n= 9  mean   +5.927  SD  8.277  t =  +2.148  p = 0.064  n.s.
+  A. thaliana                        gTUR                               n= 9  mean  +41.668  SD 24.853  t =  +5.030  p = 0.00101  **
+  C. sativa                          gTUR                               n= 9  mean  +62.679  SD 33.125  t =  +5.677  p = 0.000467  ***
+  B. vulgaris                        gTUR                               n= 9  mean  +17.456  SD 16.016  t =  +3.270  p = 0.0114  *
+  S. lycopersicum                    gTUR                               n= 9  mean  +26.876  SD 27.989  t =  +2.881  p = 0.0205  *
+  O. sativa                          gTUR                               n= 9  mean  +66.487  SD 23.214  t =  +8.592  p = 2.6e-05  ***
+  S. bicolor                         gTUR                               n= 9  mean  +69.468  SD 19.134  t = +10.892  p = 4.47e-06  ***
+  Z. mays                            gTUR                               n= 9  mean  +63.680  SD 36.068  t =  +5.297  p = 0.000731  ***
+  A. thaliana                        gUR+gTUR                           n= 9  mean  +42.342  SD 26.403  t =  +4.811  p = 0.00134  **
+  C. sativa                          gUR+gTUR                           n= 9  mean  +52.170  SD 30.254  t =  +5.173  p = 0.00085  ***
+  B. vulgaris                        gUR+gTUR                           n= 9  mean  +14.072  SD 17.739  t =  +2.380  p = 0.0446  *
+  S. lycopersicum                    gUR+gTUR                           n= 9  mean  +27.281  SD 28.854  t =  +2.836  p = 0.0219  *
+  O. sativa                          gUR+gTUR                           n= 9  mean  +66.620  SD 23.245  t =  +8.598  p = 2.59e-05  ***
+  S. bicolor                         gUR+gTUR                           n= 9  mean  +71.719  SD 18.968  t = +11.343  p = 3.29e-06  ***
+  Z. mays                            gUR+gTUR                           n= 9  mean  +63.360  SD 35.946  t =  +5.288  p = 0.000739  ***
+
+panel d)
+  A. thaliana                        gUR                                n= 9  mean   -6.750  SD  7.045  t =  -2.875  p = 0.0207  *
+  C. sativa                          gUR                                n= 9  mean  -36.790  SD 20.769  t =  -5.314  p = 0.000716  ***
+  B. vulgaris                        gUR                                n= 9  mean   -1.851  SD  3.102  t =  -1.790  p = 0.111  n.s.
+  S. lycopersicum                    gUR                                n= 9  mean  -15.958  SD  9.690  t =  -4.940  p = 0.00113  **
+  O. sativa                          gUR                                n= 9  mean   -7.972  SD 13.622  t =  -1.756  p = 0.117  n.s.
+  S. bicolor                         gUR                                n= 9  mean  -21.871  SD 18.771  t =  -3.495  p = 0.00813  **
+  Z. mays                            gUR                                n= 9  mean   -1.077  SD 12.767  t =  -0.253  p = 0.807  n.s.
+  A. thaliana                        gTUR                               n= 9  mean   -3.253  SD  3.417  t =  -2.857  p = 0.0213  *
+  C. sativa                          gTUR                               n= 9  mean  -11.394  SD  9.178  t =  -3.725  p = 0.00583  **
+  B. vulgaris                        gTUR                               n= 9  mean  +40.244  SD 26.200  t =  +4.608  p = 0.00174  **
+  S. lycopersicum                    gTUR                               n= 9  mean  -17.104  SD 12.536  t =  -4.093  p = 0.00347  **
+  O. sativa                          gTUR                               n= 9  mean  -38.116  SD 12.294  t =  -9.301  p = 1.45e-05  ***
+  S. bicolor                         gTUR                               n= 9  mean  -26.077  SD 13.808  t =  -5.666  p = 0.000473  ***
+  Z. mays                            gTUR                               n= 9  mean   -3.138  SD  1.316  t =  -7.151  p = 9.7e-05  ***
+  A. thaliana                        gUR+gTUR                           n= 9  mean   -4.934  SD  5.582  t =  -2.652  p = 0.0292  *
+  C. sativa                          gUR+gTUR                           n= 9  mean  -10.307  SD  8.638  t =  -3.580  p = 0.00719  **
+  B. vulgaris                        gUR+gTUR                           n= 9  mean  +38.447  SD 26.578  t =  +4.340  p = 0.00248  **
+  S. lycopersicum                    gUR+gTUR                           n= 9  mean  -25.417  SD 15.639  t =  -4.876  p = 0.00123  **
+  O. sativa                          gUR+gTUR                           n= 9  mean  -35.212  SD 10.971  t =  -9.629  p = 1.13e-05  ***
+  S. bicolor                         gUR+gTUR                           n= 9  mean  -28.407  SD 12.939  t =  -6.586  p = 0.000172  ***
+  Z. mays                            gUR+gTUR                           n= 9  mean   -4.317  SD  1.449  t =  -8.937  p = 1.95e-05  ***
+
+panel e)
+  A. thaliana                        leaf                               n= 9  mean  -17.933  SD 35.675  t =  -1.508  p = 0.17  n.s.
+  C. sativa                          leaf                               n= 9  mean   -6.159  SD 27.134  t =  -0.681  p = 0.515  n.s.
+  B. vulgaris                        leaf                               n= 9  mean   -7.901  SD 41.735  t =  -0.568  p = 0.586  n.s.
+  S. lycopersicum                    leaf                               n= 9  mean   -4.661  SD 16.997  t =  -0.823  p = 0.435  n.s.
+  O. sativa                          leaf                               n= 9  mean  -11.823  SD 20.918  t =  -1.696  p = 0.128  n.s.
+  S. bicolor                         leaf                               n= 9  mean  +13.307  SD 17.721  t =  +2.253  p = 0.0543  n.s.
+  Z. mays                            leaf                               n= 9  mean   +1.379  SD 17.560  t =  +0.236  p = 0.82  n.s.
+  A. thaliana                        root                               n= 9  mean   -6.408  SD 21.517  t =  -0.893  p = 0.398  n.s.
+  C. sativa                          root                               n= 9  mean  -12.456  SD 22.437  t =  -1.665  p = 0.134  n.s.
+  B. vulgaris                        root                               n= 9  mean   -9.776  SD 16.241  t =  -1.806  p = 0.109  n.s.
+  S. lycopersicum                    root                               n= 9  mean  -16.307  SD 19.167  t =  -2.552  p = 0.034  *
+  O. sativa                          root                               n= 9  mean  -24.657  SD 21.187  t =  -3.491  p = 0.00818  **
+  S. bicolor                         root                               n= 9  mean   -3.698  SD 15.055  t =  -0.737  p = 0.482  n.s.
+  Z. mays                            root                               n= 9  mean  +23.284  SD 29.674  t =  +2.354  p = 0.0464  *
+
+panel f)
+  A. thaliana                        leaf                               n= 9  mean   +4.320  SD  8.888  t =  +1.458  p = 0.183  n.s.
+  C. sativa                          leaf                               n= 9  mean   +5.206  SD 18.317  t =  +0.853  p = 0.419  n.s.
+  B. vulgaris                        leaf                               n= 9  mean   +9.920  SD  7.049  t =  +4.222  p = 0.00291  **
+  S. lycopersicum                    leaf                               n= 9  mean  -32.707  SD 14.820  t =  -6.621  p = 0.000166  ***
+  O. sativa                          leaf                               n= 9  mean   -8.397  SD  8.187  t =  -3.077  p = 0.0152  *
+  S. bicolor                         leaf                               n= 9  mean  -14.157  SD 10.377  t =  -4.093  p = 0.00347  **
+  Z. mays                            leaf                               n= 9  mean  -14.508  SD 13.179  t =  -3.302  p = 0.0108  *
+  A. thaliana                        root                               n= 9  mean   +4.120  SD  9.560  t =  +1.293  p = 0.232  n.s.
+  C. sativa                          root                               n= 9  mean   -5.809  SD 11.367  t =  -1.533  p = 0.164  n.s.
+  B. vulgaris                        root                               n= 9  mean  +12.313  SD 10.689  t =  +3.456  p = 0.00862  **
+  S. lycopersicum                    root                               n= 9  mean  -32.724  SD 17.728  t =  -5.538  p = 0.000549  ***
+  O. sativa                          root                               n= 9  mean  -11.521  SD  8.252  t =  -4.188  p = 0.00304  **
+  S. bicolor                         root                               n= 9  mean   -6.908  SD  6.392  t =  -3.242  p = 0.0118  *
+  Z. mays                            root                               n= 9  mean   -3.077  SD  4.035  t =  -2.288  p = 0.0514  n.s.
+
+panel g)
+  A. thaliana                        leaf                               n= 9  mean  -23.062  SD 29.140  t =  -2.374  p = 0.0449  *
+  C. sativa                          leaf                               n= 9  mean  +29.131  SD 30.408  t =  +2.874  p = 0.0207  *
+  B. vulgaris                        leaf                               n= 9  mean  -20.124  SD 36.939  t =  -1.634  p = 0.141  n.s.
+  S. lycopersicum                    leaf                               n= 9  mean  +21.579  SD 17.542  t =  +3.690  p = 0.00613  **
+  O. sativa                          leaf                               n= 9  mean  +25.633  SD 19.794  t =  +3.885  p = 0.00464  **
+  S. bicolor                         leaf                               n= 9  mean  +53.599  SD 23.152  t =  +6.945  p = 0.000119  ***
+  Z. mays                            leaf                               n= 9  mean  +39.737  SD 24.928  t =  +4.782  p = 0.00139  **
+  A. thaliana                        root                               n= 9  mean  +16.678  SD 20.628  t =  +2.426  p = 0.0415  *
+  C. sativa                          root                               n= 9  mean   +6.046  SD 22.745  t =  +0.797  p = 0.448  n.s.
+  B. vulgaris                        root                               n= 9  mean   -2.837  SD 14.963  t =  -0.569  p = 0.585  n.s.
+  S. lycopersicum                    root                               n= 9  mean  +25.549  SD 27.081  t =  +2.830  p = 0.0221  *
+  O. sativa                          root                               n= 9  mean  +52.960  SD 20.084  t =  +7.911  p = 4.73e-05  ***
+  S. bicolor                         root                               n= 9  mean  +65.903  SD 21.012  t =  +9.410  p = 1.33e-05  ***
+  Z. mays                            root                               n= 9  mean  +60.280  SD 34.617  t =  +5.224  p = 0.000799  ***
+
+panel h)
+  native                             2024 Zea mays (leaf)               n= 1  mean   +0.272
+  OsACT1 gTUR swap                   2024 Zea mays (leaf)               n= 1  mean   +0.993
+  change                             2024 Zea mays (leaf)               n= 1  mean   +0.721
+
+panel j)
+  native                             2024 Zea mays (leaf)               n= 1  mean   +0.272
+  AtACT1 gTUR swap                   2024 Zea mays (leaf)               n= 1  mean   +0.944
+  change                             2024 Zea mays (leaf)               n= 1  mean   +0.672
+
+panel l)
+  native                             2024 Zea mays (leaf)               n= 1  mean   +0.272
+  PpACT1 gTUR swap                   2024 Zea mays (leaf)               n= 1  mean   +0.568
+  change                             2024 Zea mays (leaf)               n= 1  mean   +0.296
+
+panel o)
+  leaf: fragment intact              2024 Zea mays (leaf)               n= 9  mean  +15.639  SD  9.739
+  leaf: conserved sites degenerated  2024 Zea mays (leaf)               n= 9  mean   +0.836  SD  2.506  t =  -4.475  p = 0.00207  **
+  leaf: control sites degenerated    2024 Zea mays (leaf)               n= 9  mean   +3.709  SD  3.292  t =  -4.619  p = 0.00171  **
+  leaf: degenerated vs control       2024 Zea mays (leaf)               n= 9  mean   -2.873  SD  2.752  t =  -3.132  p = 0.014  *
+  root: fragment intact              2024 Zea mays (root)               n= 9  mean   +3.259  SD  4.662
+  root: conserved sites degenerated  2024 Zea mays (root)               n= 9  mean   -1.591  SD  2.229  t =  -3.731  p = 0.00578  **
+  root: control sites degenerated    2024 Zea mays (root)               n= 9  mean   -2.226  SD  4.447  t =  -4.949  p = 0.00112  **
+  root: degenerated vs control       2024 Zea mays (root)               n= 9  mean   +0.635  SD  2.533  t =  +0.753  p = 0.473  n.s.
+

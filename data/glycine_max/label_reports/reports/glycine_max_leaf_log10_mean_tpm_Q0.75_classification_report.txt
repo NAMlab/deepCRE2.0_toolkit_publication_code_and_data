@@ -1,0 +1,12 @@
+EXPRESSION CLASS REPORT for: glycine_max (using input stem: leaf_log10_mean_tpm)
+Metric Column Used: log10MeanTPM
+Q Threshold for Upper Percentile: 75.0%
+Calculated Upper Cutoff (log10MeanTPM): 1.1222
+Reference Lower Cutoff (25.0%th percentile): 0.0617
+Total Genes Classified as Class 1 (High Expression): 12656
+Total Genes Classified as Class 0 (Low/No Expression): 12656
+  - From 'metric == 0' pool (Subgroup A): 6328 (of which 6328 had metric strictly 0)
+  - From 'lowest positive metric' pool (Subgroup B): 6328
+Lower Percentile Cutoff after balancing (Max value in Subgroup B): 0.1055
+Total Genes Classified as Class 2 (Medium Expression): 25310
+Genes in Class 2 between effective lower and upper cutoffs: 23630

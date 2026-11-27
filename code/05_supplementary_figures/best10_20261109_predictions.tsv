@@ -1,0 +1,15 @@
+analysis	target	variant	model	generation	P	delta
+best10	AT1G53910	reference	r3 Arabidopsis thaliana (leaf)	round-3	0.0747	
+best10	AT1G53910	best ten (v3)	r3 Arabidopsis thaliana (leaf)	round-3	0.0574	-0.0173
+best10	AT1G53910	control 1	r3 Arabidopsis thaliana (leaf)	round-3	0.0639	-0.0108
+best10	AT1G53910	control 2	r3 Arabidopsis thaliana (leaf)	round-3	0.0614	-0.0133
+best10	AT1G53910	control 3	r3 Arabidopsis thaliana (leaf)	round-3	0.0675	-0.0072
+best10	AT1G53910	control 4	r3 Arabidopsis thaliana (leaf)	round-3	0.0619	-0.0128
+best10	AT1G53910	control 5	r3 Arabidopsis thaliana (leaf)	round-3	0.0641	-0.0106
+best10	AT1G53910	reference	2024 Arabidopsis thaliana (leaf)	2024	0.9316	
+best10	AT1G53910	best ten (v3)	2024 Arabidopsis thaliana (leaf)	2024	0.8924	-0.0393
+best10	AT1G53910	control 1	2024 Arabidopsis thaliana (leaf)	2024	0.9225	-0.0091
+best10	AT1G53910	control 2	2024 Arabidopsis thaliana (leaf)	2024	0.9251	-0.0065
+best10	AT1G53910	control 3	2024 Arabidopsis thaliana (leaf)	2024	0.9365	0.0049
+best10	AT1G53910	control 4	2024 Arabidopsis thaliana (leaf)	2024	0.9374	0.0058
+best10	AT1G53910	control 5	2024 Arabidopsis thaliana (leaf)	2024	0.9378	0.0062

@@ -1,0 +1,11 @@
+# trained models: release assets, fetched by models/fetch_models.sh
+models/*.h5
+models/*.tar
+models/deepCRE2.0_models_release_*/
+# inputs outside the repository (EXTERNAL_INPUTS.md) and genomes
+EXTERNAL/
+data/*/genome/
+__pycache__/
+*.pyc
+# editor and LibreOffice lock files
+.~lock.*

@@ -1,0 +1,22 @@
+[
+  {
+    "model_case": "ssc",
+    "genome": "data/chenopodium_quinoa/genome/GCF_001683475.1.fna",
+    "annotation": "data/chenopodium_quinoa/hlx-Chenopodium_quinoa-GCF_001683475.1-63459.gff.agat.gtf",
+    "targets": "data/chenopodium_quinoa/chenopodium_quinoa_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NW_018742204.1",
+      "NW_018742738.1",
+      "NW_018743252.1",
+      "NW_018743292.1",
+      "NW_018743331.1",
+      "NW_018744239.1",
+      "NW_018745024.1",
+      "NW_018745684.1"
+    ],
+    "output_name": "Cqui_S1X0.75dPm_v8val_seed2026_ctrlSSC",
+    "pickle_key": "cqui",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

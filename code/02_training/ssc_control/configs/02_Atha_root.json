@@ -1,0 +1,19 @@
+[
+  {
+    "model_case": "ssc",
+    "genome": "data/arabidopsis_thaliana/genome/GCF_000001735.4.fna",
+    "annotation": "data/arabidopsis_thaliana/Arabidopsis_thaliana-GCF_000001735.4-genome.helixer.agat.gtf",
+    "targets": "data/arabidopsis_thaliana/arabidopsis_thaliana_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_003070.9",
+      "NC_003071.7",
+      "NC_003074.8",
+      "NC_003075.7",
+      "NC_003076.8"
+    ],
+    "output_name": "Atha_S1X0.75dPm_v8val_seed2026_ctrlSSC",
+    "pickle_key": "atha",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

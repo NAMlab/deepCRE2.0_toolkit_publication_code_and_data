@@ -1,0 +1,5 @@
+model	peak_lo	peak_hi	peak_sum	offset_from_published	conserved_in_peak	conserved_in_published	score_at_published
+2024 Arabidopsis thaliana (leaf)	1185	1230	1.2182	0	7	7	1.2182
+2024 Zea mays (leaf)	1147	1192	1.8363	-38	10	7	1.1986
+r3 Arabidopsis thaliana (leaf)	1294	1339	0.6842	109	8	7	0.352
+r3 Zea mays (leaf)	1142	1187	1.8225	-43	9	7	0.4355

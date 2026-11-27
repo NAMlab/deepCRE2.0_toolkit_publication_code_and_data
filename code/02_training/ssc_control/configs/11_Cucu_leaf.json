@@ -1,0 +1,21 @@
+[
+  {
+    "model_case": "ssc",
+    "genome": "data/cucumis_sativus/genome/GCF_000004075.3.fna",
+    "annotation": "data/cucumis_sativus/Cucumis_sativus-GCF_000004075.3-genome.helixer.agat.gtf",
+    "targets": "data/cucumis_sativus/cucumis_sativus_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_026655.2",
+      "NC_026656.2",
+      "NC_026657.2",
+      "NC_026658.2",
+      "NC_026659.2",
+      "NC_026660.2",
+      "NC_026661.2"
+    ],
+    "output_name": "Cucu_S0X0.75dPm_v8val_seed2026_ctrlSSC",
+    "pickle_key": "cucu",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

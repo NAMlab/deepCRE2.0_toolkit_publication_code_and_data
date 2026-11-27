@@ -1,0 +1,19 @@
+[
+  {
+    "model_case": "ssr",
+    "genome": "data/arabidopsis_thaliana/genome/GCF_000001735.4.fna",
+    "annotation": "deepCRE_reimplemented/src/deepCRE/inputs/tair10_exception_20261110/Arabidopsis_thaliana_TAIR10_RefSeq.gene.gtf",
+    "targets": "deepCRE_reimplemented/src/deepCRE/inputs/tair10_exception_20261110/arabidopsis_thaliana_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic_TAIR10.csv",
+    "chromosomes": [
+      "NC_003070.9",
+      "NC_003071.7",
+      "NC_003074.8",
+      "NC_003075.7",
+      "NC_003076.8"
+    ],
+    "output_name": "Atha_TAIR10_S0X0.75dPm_v8_leaf_seed2026",
+    "pickle_key": "atha_tair10",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.tair10.pickle",
+    "ignore_small_genes": true
+  }
+]

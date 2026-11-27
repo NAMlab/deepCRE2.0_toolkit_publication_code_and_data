@@ -1,0 +1,21 @@
+[
+  {
+    "model_case": "ssc",
+    "genome": "data/hordeum_vulgare/genome/GCF_904849725.1.fna",
+    "annotation": "data/hordeum_vulgare/hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509.agat.gtf",
+    "chromosomes": [
+      "NC_058518.1",
+      "NC_058519.1",
+      "NC_058520.1",
+      "NC_058521.1",
+      "NC_058522.1",
+      "NC_058523.1",
+      "NC_058524.1"
+    ],
+    "pickle_key": "hvul",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true,
+    "targets": "data/hordeum_vulgare/hordeum_vulgare_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "output_name": "Hvul_S1X0.75dPm_v8val_seed2026_ctrlSSC"
+  }
+]

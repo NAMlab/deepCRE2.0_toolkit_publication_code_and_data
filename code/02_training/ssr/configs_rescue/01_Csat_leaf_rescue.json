@@ -1,0 +1,15 @@
+[
+  {
+    "model_case": "ssr",
+    "genome": "data/camelina_sativa/genome/GCF_000633955.1.fna",
+    "annotation": "data/camelina_sativa/Camelina_sativa-GCF_000633955.1-genome.helixer.agat.gtf",
+    "targets": "data/camelina_sativa/camelina_sativa_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_025691.1"
+    ],
+    "output_name": "Csat_S0X0.75dPm_v8val_seed2026_rescue",
+    "pickle_key": "csat",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

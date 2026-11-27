@@ -1,0 +1,45 @@
+Supplementary Figure 6, rebuilt in the layout of the published figure, 2024models (20261109 rerun). All panels use the Arabidopsis thaliana leaf model, as Supplementary Note 3 specifies. Windows are extracted with the TAIR10 annotation for every model generation, as the toolkit is used.
+
+a) The 672 accessions of Lou et al. (2022) carry only a few distinct RAP2.12 promoter sequences; each is drawn once, at its predicted probability and at the number of accessions that carry it (log scale). Identical sequences necessarily receive identical predictions, so this shows what the model does with the sequence variation that exists. Statistics: two-sided Welch's t-test between the group means and the Mann-Whitney AUC.
+b) Predicted probability of the Col-0 reference window against the IP-Cat-0 haplotype (all 17 of its SNPs).
+c, d) DeepSHAP saliency averaged over the four bases across the whole 3020 bp window, reference against the mutated sequence. Dashed lines mark the substituted positions; the shaded bands are the regions the web tool itself draws (gUR and gDR grey, gTUR red, gTDR blue).
+e) The same saliency profiles zoomed to the gTUR window that carries the variants, with the nine key SNP positions as dashed lines and the value of the mutated profile at each of them marked. The count below is how many of the nine sit in the top quartile of |saliency| over that window.
+f) Bases of the representative accessions at every position of the aligned block where at least one of them differs from Col-0, read from the Lou et al. alignment. A coloured cell marks a base differing from Col-0. Accession labels are coloured by haplotype group. The transcription-factor binding sites of the published panel come from PlantPAN 4.0 and are in none of the archived files; the boxes drawn here are transcribed from the published figure and are the only element of this figure that is not recomputed. Panel e reports how many of the nine key SNPs fall inside one (1 = inside, 0 = outside, listed below).
+g) The control of Supplementary Note 3, scaled up: 1000 instead of five artificial sequences in which the nine key SNPs of Lou et al. are substituted with a random base that is neither the reference nor the IP-Cat-0 allele. Histogram, the 1000 random substitution sets; line, the observed change for the nine key SNPs. p is one-sided empirical, (#null <= observed + 1)/1001, so its floor is 0.001. A second null that also randomises the positions within the aligned 250 bp block was computed but is not plotted; its p is listed below and in perm_20261110_*_summary.tsv.
+
+panel a)
+  Hap-WT sequences             n=  24  value    +0.9320  range 0.9203-0.9470
+  Hap-W sequences              n=  10  value    +0.8533  range 0.8020-0.9263
+  accession-level Welch t-test n=  12  value    +0.8498  t =   +8.649  p = 3.09e-06  ***
+  AUC                          n=   0  value    +0.9973
+
+panel b)
+  reference                    n=   1  value    +0.9316
+  IP-Cat-0, 17 SNPs            n=   1  value    +0.8107
+  change (%)                   n=   1  value   -12.0900
+
+panel c)
+  all 41 alignment SNPs        n=  41  value    +2.3375
+
+panel d)
+  nine key SNPs                n=   9  value    +2.3155
+
+panel e)
+  nine key SNPs: in the top quartile of |saliency| over 1140-1410 n=   9  value    +2.0000
+
+panel f)
+  key SNP 20135013 (window 1170) n=   1  value    +1.0000
+  key SNP 20135057 (window 1214) n=   1  value    +0.0000
+  key SNP 20135073 (window 1230) n=   1  value    +1.0000
+  key SNP 20135077 (window 1234) n=   1  value    +1.0000
+  key SNP 20135082 (window 1239) n=   1  value    +1.0000
+  key SNP 20135096 (window 1253) n=   1  value    +1.0000
+  key SNP 20135143 (window 1300) n=   1  value    +1.0000
+  key SNP 20135162 (window 1319) n=   1  value    +1.0000
+  key SNP 20135212 (window 1369) n=   1  value    +0.0000
+
+panel g)
+  observed, published nine     n=   1  value   -14.4805
+  random alleles, same sites   n=1000  value    -3.3698  range -7.5897--0.3009
+  random sites (not plotted)   n=1000  value    -1.6114  range -18.5458-3.4580
+

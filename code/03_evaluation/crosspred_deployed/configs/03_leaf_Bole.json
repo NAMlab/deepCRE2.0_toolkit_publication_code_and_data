@@ -1,0 +1,55 @@
+[
+  {
+    "genome": "data/brassica_oleracea/genome/GCF_000695525.1.fna",
+    "annotation": "data/brassica_oleracea/Brassica_oleracea_var_oleracea-GCF_000695525.1-genome.helixer.agat.gtf",
+    "targets": "data/brassica_oleracea/brassica_oleracea_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "prediction_models": [
+      "models/Atha_S0X0.75dPm_v8val_seed2026_NC_003070.9_ssr_train_models_261015_161349.h5",
+      "models/Bole_S0X0.75dPm_v8val_seed2026_NC_027755.1_ssr_train_models_261015_161349.h5",
+      "models/Bvul_S0X0.75dPm_v8val_seed2026_NC_064024.1_ssr_train_models_261015_161349.h5",
+      "models/Cqui_S0X0.75dPm_v8val_seed2026_NW_018745684.1_ssr_train_models_261015_163129.h5",
+      "models/Csat_S0X0.75dPm_v8val_seed2026_NC_025704.1_ssr_train_models_261015_162258.h5",
+      "models/Cucu_S0X0.75dPm_v8val_seed2026_NC_026656.2_ssr_train_models_261015_163658.h5",
+      "models/Dcar_S0X0.75dPm_v8val_seed2026_NC_030383.1_ssr_train_models_261015_164112.h5",
+      "models/Gmax_S0X0.75dPm_v8val_seed2026_NC_016088.4_ssr_train_models_261015_164428.h5",
+      "models/Osat_S0X0.75dPm_v8val_seed2026_NC_029262.1_ssr_train_models_261015_164914.h5",
+      "models/Sbic_S0X0.75dPm_v8val_seed2026_NC_012879.2_ssr_train_models_261015_170143.h5",
+      "models/Slyc_S0X0.75dPm_v8val_seed2026_NC_015449.3_ssr_train_models_261015_165358.h5",
+      "models/Zmay_S0X0.75dPm_v8val_seed2026_NC_050104.1_ssr_train_models_261015_170459.h5"
+    ],
+    "chromosomes": [
+      "NC_027748.1",
+      "NC_027749.1",
+      "NC_027750.1",
+      "NC_027751.1",
+      "NC_027752.1",
+      "NC_027753.1",
+      "NC_027754.1",
+      "NC_027755.1",
+      "NC_027756.1"
+    ],
+    "ignore_small_genes": true,
+    "output_path": "EXTERNAL/predictions/deployed_leaf_all12_deepcre_crosspredict_Bole_leaf.csv"
+  },
+  {
+    "genome": "data/brassica_oleracea/genome/GCF_000695525.1.fna",
+    "annotation": "data/brassica_oleracea/Brassica_oleracea_var_oleracea-GCF_000695525.1-genome.helixer.agat.gtf",
+    "targets": "data/brassica_oleracea/brassica_oleracea_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_027748.1",
+      "NC_027749.1",
+      "NC_027750.1",
+      "NC_027751.1",
+      "NC_027752.1",
+      "NC_027753.1",
+      "NC_027754.1",
+      "NC_027755.1",
+      "NC_027756.1"
+    ],
+    "ignore_small_genes": true,
+    "prediction_models": [
+      "models/Hvul_S0X0.75dPm_v8val_seed2026_NC_058524.1_ssr_train_models_261015_170928.h5"
+    ],
+    "output_path": "EXTERNAL/predictions/deployed_leaf_Hvul_deepcre_crosspredict_Bole_leaf.csv"
+  }
+]

@@ -1,0 +1,12 @@
+EXPRESSION CLASS REPORT for: camelina_sativa (using input stem: leaf_log10_mean_tpm)
+Metric Column Used: log10MeanTPM
+Q Threshold for Upper Percentile: 75.0%
+Calculated Upper Cutoff (log10MeanTPM): 0.6907
+Reference Lower Cutoff (25.0%th percentile): 0.0017
+Total Genes Classified as Class 1 (High Expression): 26723
+Total Genes Classified as Class 0 (Low/No Expression): 26723
+  - From 'metric == 0' pool (Subgroup A): 13361 (of which 13361 had metric strictly 0)
+  - From 'lowest positive metric' pool (Subgroup B): 13362
+Lower Percentile Cutoff after balancing (Max value in Subgroup B): 0.0435
+Total Genes Classified as Class 2 (Medium Expression): 53447
+Genes in Class 2 between effective lower and upper cutoffs: 41069

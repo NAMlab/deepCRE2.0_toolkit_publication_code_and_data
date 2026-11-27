@@ -1,0 +1,14 @@
+species	refseq_accession	assembly	helixer_annotation	helixer_model
+arabidopsis_thaliana	GCF_000001735.4	TAIR10.1	Arabidopsis_thaliana-GCF_000001735.4-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+beta_vulgaris	GCF_002917755.1	EL10_1.0	Beta_vulgaris_subsp_vulgaris-GCF_002917755.1-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+brassica_oleracea	GCF_000695525.1	BOL	Brassica_oleracea_var_oleracea-GCF_000695525.1-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+camelina_sativa	GCF_000633955.1	Cs	Camelina_sativa-GCF_000633955.1-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+chenopodium_quinoa	GCF_001683475.1	ASM168347v1	hlx-Chenopodium_quinoa-GCF_001683475.1-63459.gff.agat.gtf	land_plant_v0.3_a_0080
+cucumis_sativus	GCF_000004075.3	Cucumber_9930_V3	Cucumis_sativus-GCF_000004075.3-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+daucus_carota	GCF_001625215.1	ASM162521v1	Daucus_carota_subsp_sativus-GCF_001625215.1-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+glycine_max	GCF_000004515.6	Glycine_max_v4.0	Glycine_max-GCF_000004515.6-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+hordeum_vulgare	GCF_904849725.1	MorexV3_pseudomolecules_assembly	hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509.agat.gtf	land_plant_v0.3_a_0080
+oryza_sativa	GCF_001433935.1	IRGSP-1.0	Oryza_sativa_Japonica_Group-GCF_001433935.1-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+solanum_lycopersicum	GCF_000188115.5	SL3.0 (per FASTA headers; check accession)	Solanum_lycopersicum-GCF_000188115.5-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+sorghum_bicolor	GCF_000003195.3	Sorghum_bicolor_NCBIv3	Sorghum_bicolor-GCF_000003195.3-genome.helixer.agat.gtf	land_plant_v0.3_a_0080
+zea_mays	GCF_902167145.1	Zm-B73-REFERENCE-NAM-5.0	Zea_mays-GCF_902167145.1-genome.helixer.agat.gtf	land_plant_v0.3_a_0080

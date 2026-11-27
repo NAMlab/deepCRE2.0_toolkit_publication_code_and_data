@@ -1,0 +1,12 @@
+EXPRESSION CLASS REPORT for: cucumis_sativus (using input stem: leaf_log10_mean_tpm)
+Metric Column Used: log10MeanTPM
+Q Threshold for Upper Percentile: 75.0%
+Calculated Upper Cutoff (log10MeanTPM): 1.2648
+Reference Lower Cutoff (25.0%th percentile): 0.2308
+Total Genes Classified as Class 1 (High Expression): 5401
+Total Genes Classified as Class 0 (Low/No Expression): 5401
+  - From 'metric == 0' pool (Subgroup A): 1908 (of which 1908 had metric strictly 0)
+  - From 'lowest positive metric' pool (Subgroup B): 3493
+Lower Percentile Cutoff after balancing (Max value in Subgroup B): 0.2307
+Total Genes Classified as Class 2 (Medium Expression): 10802
+Genes in Class 2 between effective lower and upper cutoffs: 10802

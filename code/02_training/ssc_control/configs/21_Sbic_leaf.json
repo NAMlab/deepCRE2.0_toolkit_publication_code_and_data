@@ -1,0 +1,24 @@
+[
+  {
+    "model_case": "ssc",
+    "genome": "data/sorghum_bicolor/genome/GCF_000003195.3.fna",
+    "annotation": "data/sorghum_bicolor/Sorghum_bicolor-GCF_000003195.3-genome.helixer.agat.gtf",
+    "targets": "data/sorghum_bicolor/sorghum_bicolor_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_012870.2",
+      "NC_012871.2",
+      "NC_012872.2",
+      "NC_012873.2",
+      "NC_012874.2",
+      "NC_012875.2",
+      "NC_012876.2",
+      "NC_012877.2",
+      "NC_012878.2",
+      "NC_012879.2"
+    ],
+    "output_name": "Sbic_S0X0.75dPm_v8val_seed2026_ctrlSSC",
+    "pickle_key": "sbic",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

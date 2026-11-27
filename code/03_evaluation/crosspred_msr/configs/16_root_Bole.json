@@ -1,0 +1,48 @@
+[
+  {
+    "genome": "data/brassica_oleracea/genome/GCF_000695525.1.fna",
+    "annotation": "data/brassica_oleracea/Brassica_oleracea_var_oleracea-GCF_000695525.1-genome.helixer.agat.gtf",
+    "targets": "data/brassica_oleracea/brassica_oleracea_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "prediction_models": [
+      "models/MSR_dPm_all_root_seed2026_Atha_dPm_root_msr_train_models_261015_171458.h5",
+      "models/MSR_dPm_all_root_seed2026_Bole_dPm_root_msr_train_models_261015_171458.h5",
+      "models/MSR_dPm_all_root_seed2026_Bvul_dPm_root_msr_train_models_261015_171458.h5",
+      "models/MSR_dPm_all_root_seed2026_Cqui_dPm_root_msr_train_models_261015_171458.h5",
+      "models/MSR_dPm_all_root_seed2026_Csat_dPm_root_msr_train_models_261015_171458.h5",
+      "models/MSR_dPm_all_root_seed2026_Cucu_dPm_root_msr_train_models_261015_171458.h5",
+      "models/MSR_dPm_all_root_seed2026_Dcar_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_root_seed2026_Gmax_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_root_seed2026_Hvul_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_root_seed2026_Osat_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_root_seed2026_Sbic_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_root_seed2026_Slyc_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_all_root_seed2026_Zmay_dPm_root_msr_train_models_261015_200259.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Atha_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Bole_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Bvul_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Cqui_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Csat_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Cucu_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Dcar_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Gmax_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_dicots_root_seed2026_Slyc_dPm_root_msr_train_models_261015_172313.h5",
+      "models/MSR_dPm_monocots_root_seed2026_Hvul_dPm_root_msr_train_models_261015_182000.h5",
+      "models/MSR_dPm_monocots_root_seed2026_Osat_dPm_root_msr_train_models_261015_182000.h5",
+      "models/MSR_dPm_monocots_root_seed2026_Sbic_dPm_root_msr_train_models_261015_182000.h5",
+      "models/MSR_dPm_monocots_root_seed2026_Zmay_dPm_root_msr_train_models_261015_182000.h5"
+    ],
+    "chromosomes": [
+      "NC_027748.1",
+      "NC_027749.1",
+      "NC_027750.1",
+      "NC_027751.1",
+      "NC_027752.1",
+      "NC_027753.1",
+      "NC_027754.1",
+      "NC_027755.1",
+      "NC_027756.1"
+    ],
+    "ignore_small_genes": true,
+    "output_path": "EXTERNAL/predictions/MSR_root_deepcre_crosspredict_Bole_root.csv"
+  }
+]

@@ -1,0 +1,3 @@
+[submodule "deepCRE_reimplemented"]
+	path = deepCRE_reimplemented
+	url = https://github.com/NAMlab/deepCRE_reimplemented.git

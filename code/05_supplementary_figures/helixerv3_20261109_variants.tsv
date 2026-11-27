@@ -1,0 +1,19 @@
+model	variant	P	delta
+r3 Arabidopsis thaliana (leaf)	reference	0.8311	
+r3 Arabidopsis thaliana (leaf)	IP-Cat-0 (17 SNPs)	0.8177	-0.0134
+r3 Arabidopsis thaliana (leaf)	nine contributors	0.7926	-0.0384
+r3 Arabidopsis thaliana (leaf)	all 42 SNPs	0.8703	0.0392
+r3 Arabidopsis thaliana (leaf)	control 1	0.8403	0.0092
+r3 Arabidopsis thaliana (leaf)	control 2	0.8254	-0.0057
+r3 Arabidopsis thaliana (leaf)	control 3	0.8159	-0.0152
+r3 Arabidopsis thaliana (leaf)	control 4	0.781	-0.05
+r3 Arabidopsis thaliana (leaf)	control 5	0.7956	-0.0355
+r3 Arabidopsis thaliana (root)	reference	0.9339	
+r3 Arabidopsis thaliana (root)	IP-Cat-0 (17 SNPs)	0.9273	-0.0066
+r3 Arabidopsis thaliana (root)	nine contributors	0.9255	-0.0084
+r3 Arabidopsis thaliana (root)	all 42 SNPs	0.9113	-0.0226
+r3 Arabidopsis thaliana (root)	control 1	0.9292	-0.0047
+r3 Arabidopsis thaliana (root)	control 2	0.923	-0.0109
+r3 Arabidopsis thaliana (root)	control 3	0.9166	-0.0173
+r3 Arabidopsis thaliana (root)	control 4	0.9093	-0.0245
+r3 Arabidopsis thaliana (root)	control 5	0.9104	-0.0235

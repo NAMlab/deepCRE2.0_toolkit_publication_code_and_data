@@ -1,0 +1,12 @@
+EXPRESSION CLASS REPORT for: sorghum_bicolor (using input stem: root_log10_mean_tpm)
+Metric Column Used: log10MeanTPM
+Q Threshold for Upper Percentile: 75.0%
+Calculated Upper Cutoff (log10MeanTPM): 1.3903
+Reference Lower Cutoff (25.0%th percentile): 0.0484
+Total Genes Classified as Class 1 (High Expression): 7902
+Total Genes Classified as Class 0 (Low/No Expression): 7902
+  - From 'metric == 0' pool (Subgroup A): 3951 (of which 3951 had metric strictly 0)
+  - From 'lowest positive metric' pool (Subgroup B): 3951
+Lower Percentile Cutoff after balancing (Max value in Subgroup B): 0.1513
+Total Genes Classified as Class 2 (Medium Expression): 15804
+Genes in Class 2 between effective lower and upper cutoffs: 13961

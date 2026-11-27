@@ -1,0 +1,145 @@
+analysis	target	variant	model	generation	peak_lo	peak_hi	P	delta
+panel5n_peak	AT1G67090	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.5487	
+panel5n_peak	AT1G67090	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9931	0.4444
+panel5n_peak	AT1G67090	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9777	0.429
+panel5n_peak	AT1G67090	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9777	0.429
+panel5n_peak	AT2G22200	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9203	
+panel5n_peak	AT2G22200	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9885	0.0682
+panel5n_peak	AT2G22200	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9609	0.0407
+panel5n_peak	AT2G22200	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9609	0.0407
+panel5n_peak	AT2G37620	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9867	
+panel5n_peak	AT2G37620	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9951	0.0084
+panel5n_peak	AT2G37620	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9843	-0.0024
+panel5n_peak	AT2G37620	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9843	-0.0024
+panel5n_peak	AT2G46800	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.1898	
+panel5n_peak	AT2G46800	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.996	0.8061
+panel5n_peak	AT2G46800	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9858	0.7959
+panel5n_peak	AT2G46800	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9858	0.7959
+panel5n_peak	AT3G02150	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.0846	
+panel5n_peak	AT3G02150	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9472	0.8626
+panel5n_peak	AT3G02150	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.7104	0.6258
+panel5n_peak	AT3G02150	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.7104	0.6258
+panel5n_peak	AT4G30120	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.0962	
+panel5n_peak	AT4G30120	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9871	0.8908
+panel5n_peak	AT4G30120	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9435	0.8473
+panel5n_peak	AT4G30120	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9435	0.8473
+panel5n_peak	AT5G04050	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.924	
+panel5n_peak	AT5G04050	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9942	0.0703
+panel5n_peak	AT5G04050	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9749	0.0509
+panel5n_peak	AT5G04050	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9749	0.0509
+panel5n_peak	AT5G52630	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.3517	
+panel5n_peak	AT5G52630	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9837	0.632
+panel5n_peak	AT5G52630	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9194	0.5677
+panel5n_peak	AT5G52630	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9194	0.5677
+panel5n_peak	ATCG00270	reference	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.647	
+panel5n_peak	ATCG00270	OsACT1 gTUR	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.9815	0.3344
+panel5n_peak	ATCG00270	published block 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.8594	0.2124
+panel5n_peak	ATCG00270	own peak 1185-1230 mutated	2024 Arabidopsis thaliana (leaf)	2024	1185	1230	0.8594	0.2124
+panel5n_peak	AT1G67090	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.0616	
+panel5n_peak	AT1G67090	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9623	0.9006
+panel5n_peak	AT1G67090	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9593	0.8976
+panel5n_peak	AT1G67090	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9405	0.8789
+panel5n_peak	AT2G22200	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.4062	
+panel5n_peak	AT2G22200	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.951	0.5448
+panel5n_peak	AT2G22200	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9562	0.55
+panel5n_peak	AT2G22200	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.926	0.5198
+panel5n_peak	AT2G37620	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.6958	
+panel5n_peak	AT2G37620	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9718	0.276
+panel5n_peak	AT2G37620	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9731	0.2773
+panel5n_peak	AT2G37620	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9554	0.2596
+panel5n_peak	AT2G46800	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.2269	
+panel5n_peak	AT2G46800	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9601	0.7332
+panel5n_peak	AT2G46800	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9595	0.7325
+panel5n_peak	AT2G46800	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9318	0.7049
+panel5n_peak	AT3G02150	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.0723	
+panel5n_peak	AT3G02150	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.8864	0.8141
+panel5n_peak	AT3G02150	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.8836	0.8114
+panel5n_peak	AT3G02150	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.8175	0.7452
+panel5n_peak	AT4G30120	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.1884	
+panel5n_peak	AT4G30120	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.947	0.7587
+panel5n_peak	AT4G30120	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9429	0.7546
+panel5n_peak	AT4G30120	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9185	0.7302
+panel5n_peak	AT5G04050	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.7768	
+panel5n_peak	AT5G04050	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9454	0.1686
+panel5n_peak	AT5G04050	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9465	0.1697
+panel5n_peak	AT5G04050	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9189	0.1421
+panel5n_peak	AT5G52630	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.8094	
+panel5n_peak	AT5G52630	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9095	0.1002
+panel5n_peak	AT5G52630	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9161	0.1067
+panel5n_peak	AT5G52630	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.8613	0.0519
+panel5n_peak	ATCG00270	reference	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.1858	
+panel5n_peak	ATCG00270	OsACT1 gTUR	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9509	0.7651
+panel5n_peak	ATCG00270	published block 1185-1230 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9536	0.7677
+panel5n_peak	ATCG00270	own peak 1294-1339 mutated	r3 Arabidopsis thaliana (leaf)	round-3	1294	1339	0.9228	0.737
+panel5n_peak	AT1G67090	reference	2024 Zea mays (leaf)	2024	1147	1192	0.4364	
+panel5n_peak	AT1G67090	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9967	0.5603
+panel5n_peak	AT1G67090	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9879	0.5515
+panel5n_peak	AT1G67090	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.963	0.5266
+panel5n_peak	AT2G22200	reference	2024 Zea mays (leaf)	2024	1147	1192	0.6433	
+panel5n_peak	AT2G22200	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9962	0.3528
+panel5n_peak	AT2G22200	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9839	0.3406
+panel5n_peak	AT2G22200	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9512	0.3078
+panel5n_peak	AT2G37620	reference	2024 Zea mays (leaf)	2024	1147	1192	0.9452	
+panel5n_peak	AT2G37620	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9919	0.0467
+panel5n_peak	AT2G37620	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.963	0.0178
+panel5n_peak	AT2G37620	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9003	-0.0448
+panel5n_peak	AT2G46800	reference	2024 Zea mays (leaf)	2024	1147	1192	0.3523	
+panel5n_peak	AT2G46800	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9972	0.6449
+panel5n_peak	AT2G46800	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9905	0.6382
+panel5n_peak	AT2G46800	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9661	0.6138
+panel5n_peak	AT3G02150	reference	2024 Zea mays (leaf)	2024	1147	1192	0.54	
+panel5n_peak	AT3G02150	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9945	0.4545
+panel5n_peak	AT3G02150	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9808	0.4408
+panel5n_peak	AT3G02150	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9335	0.3935
+panel5n_peak	AT4G30120	reference	2024 Zea mays (leaf)	2024	1147	1192	0.7717	
+panel5n_peak	AT4G30120	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9983	0.2267
+panel5n_peak	AT4G30120	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9934	0.2217
+panel5n_peak	AT4G30120	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9792	0.2075
+panel5n_peak	AT5G04050	reference	2024 Zea mays (leaf)	2024	1147	1192	0.8606	
+panel5n_peak	AT5G04050	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.998	0.1374
+panel5n_peak	AT5G04050	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9904	0.1298
+panel5n_peak	AT5G04050	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9756	0.115
+panel5n_peak	AT5G52630	reference	2024 Zea mays (leaf)	2024	1147	1192	0.272	
+panel5n_peak	AT5G52630	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9926	0.7206
+panel5n_peak	AT5G52630	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9647	0.6927
+panel5n_peak	AT5G52630	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.8992	0.6272
+panel5n_peak	ATCG00270	reference	2024 Zea mays (leaf)	2024	1147	1192	0.2802	
+panel5n_peak	ATCG00270	OsACT1 gTUR	2024 Zea mays (leaf)	2024	1147	1192	0.9962	0.716
+panel5n_peak	ATCG00270	published block 1185-1230 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9853	0.7052
+panel5n_peak	ATCG00270	own peak 1147-1192 mutated	2024 Zea mays (leaf)	2024	1147	1192	0.9537	0.6735
+panel5n_peak	AT1G67090	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1991	
+panel5n_peak	AT1G67090	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.959	0.7599
+panel5n_peak	AT1G67090	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9571	0.758
+panel5n_peak	AT1G67090	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.5501	0.351
+panel5n_peak	AT2G22200	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1687	
+panel5n_peak	AT2G22200	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9559	0.7872
+panel5n_peak	AT2G22200	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9556	0.7869
+panel5n_peak	AT2G22200	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.4384	0.2697
+panel5n_peak	AT2G37620	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.3014	
+panel5n_peak	AT2G37620	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.8483	0.5469
+panel5n_peak	AT2G37620	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.8261	0.5247
+panel5n_peak	AT2G37620	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.1486	-0.1528
+panel5n_peak	AT2G46800	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1217	
+panel5n_peak	AT2G46800	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9762	0.8546
+panel5n_peak	AT2G46800	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9762	0.8545
+panel5n_peak	AT2G46800	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.7586	0.637
+panel5n_peak	AT3G02150	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1115	
+panel5n_peak	AT3G02150	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9615	0.85
+panel5n_peak	AT3G02150	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9577	0.8462
+panel5n_peak	AT3G02150	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.5106	0.3991
+panel5n_peak	AT4G30120	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1833	
+panel5n_peak	AT4G30120	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9898	0.8064
+panel5n_peak	AT4G30120	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9896	0.8063
+panel5n_peak	AT4G30120	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9221	0.7388
+panel5n_peak	AT5G04050	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.8205	
+panel5n_peak	AT5G04050	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9828	0.1622
+panel5n_peak	AT5G04050	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9814	0.1609
+panel5n_peak	AT5G04050	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.8575	0.037
+panel5n_peak	AT5G52630	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1743	
+panel5n_peak	AT5G52630	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9669	0.7926
+panel5n_peak	AT5G52630	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.9672	0.7929
+panel5n_peak	AT5G52630	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.7191	0.5448
+panel5n_peak	ATCG00270	reference	r3 Zea mays (leaf)	round-3	1142	1187	0.1849	
+panel5n_peak	ATCG00270	OsACT1 gTUR	r3 Zea mays (leaf)	round-3	1142	1187	0.9805	0.7956
+panel5n_peak	ATCG00270	published block 1185-1230 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.981	0.7961
+panel5n_peak	ATCG00270	own peak 1142-1187 mutated	r3 Zea mays (leaf)	round-3	1142	1187	0.8696	0.6847

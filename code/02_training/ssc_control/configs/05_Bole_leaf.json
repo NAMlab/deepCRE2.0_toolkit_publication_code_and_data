@@ -1,0 +1,23 @@
+[
+  {
+    "model_case": "ssc",
+    "genome": "data/brassica_oleracea/genome/GCF_000695525.1.fna",
+    "annotation": "data/brassica_oleracea/Brassica_oleracea_var_oleracea-GCF_000695525.1-genome.helixer.agat.gtf",
+    "targets": "data/brassica_oleracea/brassica_oleracea_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_027748.1",
+      "NC_027749.1",
+      "NC_027750.1",
+      "NC_027751.1",
+      "NC_027752.1",
+      "NC_027753.1",
+      "NC_027754.1",
+      "NC_027755.1",
+      "NC_027756.1"
+    ],
+    "output_name": "Bole_S0X0.75dPm_v8val_seed2026_ctrlSSC",
+    "pickle_key": "bole",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

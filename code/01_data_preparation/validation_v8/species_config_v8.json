@@ -1,0 +1,209 @@
+[
+  {
+    "id": "atha",
+    "proteome": "data/arabidopsis_thaliana/GCF_000001735.4-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_atha_to_atha",
+    "chromosomes": [
+      "NC_003070.9",
+      "NC_003071.7",
+      "NC_003074.8",
+      "NC_003075.7",
+      "NC_003076.8"
+    ]
+  },
+  {
+    "id": "bvul",
+    "proteome": "data/beta_vulgaris/GCF_002917755.1-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_bvul_to_bvul",
+    "chromosomes": [
+      "NC_064017.1",
+      "NC_064018.1",
+      "NC_064019.1",
+      "NC_064020.1",
+      "NC_064021.1",
+      "NC_064022.1",
+      "NC_064023.1",
+      "NC_064024.1",
+      "NC_064025.1"
+    ]
+  },
+  {
+    "id": "bole",
+    "proteome": "data/brassica_oleracea/GCF_000695525.1-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_bole_to_bole",
+    "chromosomes": [
+      "NC_027748.1",
+      "NC_027749.1",
+      "NC_027750.1",
+      "NC_027751.1",
+      "NC_027752.1",
+      "NC_027753.1",
+      "NC_027754.1",
+      "NC_027755.1",
+      "NC_027756.1"
+    ]
+  },
+  {
+    "id": "csat",
+    "proteome": "data/camelina_sativa/GCF_000633955.1-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_csat_to_csat",
+    "chromosomes": [
+      "NC_025688.1",
+      "NC_025689.1",
+      "NC_025691.1",
+      "NC_025693.1",
+      "NC_025695.1",
+      "NC_025696.1",
+      "NC_025698.1",
+      "NC_025701.1",
+      "NC_025704.1"
+    ]
+  },
+  {
+    "id": "cqui",
+    "proteome": "data/chenopodium_quinoa/chenopodium_quinoa_peptides_090724_V2.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_cqui_to_cqui",
+    "chromosomes": [
+      "NW_018742204.1",
+      "NW_018742738.1",
+      "NW_018743252.1",
+      "NW_018743292.1",
+      "NW_018743331.1",
+      "NW_018744239.1",
+      "NW_018745024.1",
+      "NW_018745684.1"
+    ]
+  },
+  {
+    "id": "cucu",
+    "proteome": "data/cucumis_sativus/GCF_000004075.3-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_cucu_to_cucu",
+    "chromosomes": [
+      "NC_026655.2",
+      "NC_026656.2",
+      "NC_026657.2",
+      "NC_026658.2",
+      "NC_026659.2",
+      "NC_026660.2",
+      "NC_026661.2"
+    ]
+  },
+  {
+    "id": "dcar",
+    "proteome": "data/daucus_carota/GCF_001625215.1-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_dcar_to_dcar",
+    "chromosomes": [
+      "NC_030381.1",
+      "NC_030382.1",
+      "NC_030383.1",
+      "NC_030384.1",
+      "NC_030385.1",
+      "NC_030386.1",
+      "NC_030387.1",
+      "NC_030388.1",
+      "NC_030389.1"
+    ]
+  },
+  {
+    "id": "gmax",
+    "proteome": "data/glycine_max/GCF_000004515.6-genome_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_gmax_to_gmax",
+    "chromosomes": [
+      "NC_016088.4",
+      "NC_016089.4",
+      "NC_016091.4",
+      "NC_038242.2",
+      "NC_038245.2",
+      "NC_038246.2",
+      "NC_038251.2",
+      "NC_038254.2",
+      "NC_038255.2"
+    ]
+  },
+  {
+    "id": "osat",
+    "proteome": "data/oryza_sativa/Oryza_sativa_Japonica_Group-GCF_001433935.1-proteome.helixer.faa",
+    "diamond": "EXTERNAL/diamond/BLASTdP_osat_to_osat",
+    "chromosomes": [
+      "NC_029256.1",
+      "NC_029257.1",
+      "NC_029258.1",
+      "NC_029259.1",
+      "NC_029260.1",
+      "NC_029261.1",
+      "NC_029262.1",
+      "NC_029263.1",
+      "NC_029264.1",
+      "NC_029265.1",
+      "NC_029266.1",
+      "NC_029267.1"
+    ]
+  },
+  {
+    "id": "slyc",
+    "proteome": "data/solanum_lycopersicum/Solanum_lycopersicum-GCF_000188115.5-proteome.helixer.faa",
+    "diamond": "EXTERNAL/diamond/BLASTdP_slyc_to_slyc",
+    "chromosomes": [
+      "NC_015438.3",
+      "NC_015439.3",
+      "NC_015440.3",
+      "NC_015441.3",
+      "NC_015442.3",
+      "NC_015443.3",
+      "NC_015444.3",
+      "NC_015445.3",
+      "NC_015446.3",
+      "NC_015447.3",
+      "NC_015448.3",
+      "NC_015449.3"
+    ]
+  },
+  {
+    "id": "sbic",
+    "proteome": "data/sorghum_bicolor/Sorghum_bicolor-GCF_000003195.3-proteome.helixer.faa",
+    "diamond": "EXTERNAL/diamond/BLASTdP_sbic_to_sbic",
+    "chromosomes": [
+      "NC_012870.2",
+      "NC_012871.2",
+      "NC_012872.2",
+      "NC_012873.2",
+      "NC_012874.2",
+      "NC_012875.2",
+      "NC_012876.2",
+      "NC_012877.2",
+      "NC_012878.2",
+      "NC_012879.2"
+    ]
+  },
+  {
+    "id": "zmay",
+    "proteome": "data/zea_mays/Zea_mays-GCF_902167145.1-proteome.helixer.faa",
+    "diamond": "EXTERNAL/diamond/BLASTdP_zmay_to_zmay",
+    "chromosomes": [
+      "NC_050096.1",
+      "NC_050097.1",
+      "NC_050098.1",
+      "NC_050099.1",
+      "NC_050100.1",
+      "NC_050101.1",
+      "NC_050102.1",
+      "NC_050103.1",
+      "NC_050104.1",
+      "NC_050105.1"
+    ]
+  },
+  {
+    "id": "hvul",
+    "proteome": "data/hordeum_vulgare/hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509_peptides_V3.fasta",
+    "diamond": "EXTERNAL/diamond/BLASTdP_hvul_to_hvul",
+    "chromosomes": [
+      "NC_058518.1",
+      "NC_058519.1",
+      "NC_058520.1",
+      "NC_058521.1",
+      "NC_058522.1",
+      "NC_058523.1",
+      "NC_058524.1"
+    ]
+  }
+]

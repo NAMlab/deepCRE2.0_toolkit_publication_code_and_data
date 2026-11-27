@@ -1,0 +1,12 @@
+EXPRESSION CLASS REPORT for: daucus_carota (using input stem: leaf_log10_mean_tpm)
+Metric Column Used: log10MeanTPM
+Q Threshold for Upper Percentile: 75.0%
+Calculated Upper Cutoff (log10MeanTPM): 0.8363
+Reference Lower Cutoff (25.0%th percentile): 0.0000
+Total Genes Classified as Class 1 (High Expression): 10489
+Total Genes Classified as Class 0 (Low/No Expression): 10489
+  - From 'metric == 0' pool (Subgroup A): 5244 (of which 5244 had metric strictly 0)
+  - From 'lowest positive metric' pool (Subgroup B): 5245
+Lower Percentile Cutoff after balancing (Max value in Subgroup B): 0.0475
+Total Genes Classified as Class 2 (Medium Expression): 20976
+Genes in Class 2 between effective lower and upper cutoffs: 14326

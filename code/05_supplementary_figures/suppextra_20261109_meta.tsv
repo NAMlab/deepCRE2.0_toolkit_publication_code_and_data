@@ -1,0 +1,7 @@
+key	value
+conserved_window	1185-1230
+conserved_positions	1189,1195,1206,1221
+n_conserved	4
+zmubi1_source	ZmUBI1_donor.fa
+zmubi1_tss	NC_050100.1 minus strand, Zea mays GCF_902167145.1
+panel5n_scheme	transversion A<->C, G<->T at every conserved column

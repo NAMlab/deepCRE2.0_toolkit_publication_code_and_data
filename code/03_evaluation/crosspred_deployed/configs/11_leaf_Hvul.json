@@ -1,0 +1,51 @@
+[
+  {
+    "genome": "data/hordeum_vulgare/genome/GCF_904849725.1.fna",
+    "annotation": "data/hordeum_vulgare/hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509.agat.gtf",
+    "targets": "data/hordeum_vulgare/hordeum_vulgare_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_058518.1",
+      "NC_058519.1",
+      "NC_058520.1",
+      "NC_058521.1",
+      "NC_058522.1",
+      "NC_058523.1",
+      "NC_058524.1"
+    ],
+    "ignore_small_genes": true,
+    "prediction_models": [
+      "models/Atha_S0X0.75dPm_v8val_seed2026_NC_003070.9_ssr_train_models_261015_161349.h5",
+      "models/Bole_S0X0.75dPm_v8val_seed2026_NC_027755.1_ssr_train_models_261015_161349.h5",
+      "models/Bvul_S0X0.75dPm_v8val_seed2026_NC_064024.1_ssr_train_models_261015_161349.h5",
+      "models/Cqui_S0X0.75dPm_v8val_seed2026_NW_018745684.1_ssr_train_models_261015_163129.h5",
+      "models/Csat_S0X0.75dPm_v8val_seed2026_NC_025704.1_ssr_train_models_261015_162258.h5",
+      "models/Cucu_S0X0.75dPm_v8val_seed2026_NC_026656.2_ssr_train_models_261015_163658.h5",
+      "models/Dcar_S0X0.75dPm_v8val_seed2026_NC_030383.1_ssr_train_models_261015_164112.h5",
+      "models/Gmax_S0X0.75dPm_v8val_seed2026_NC_016088.4_ssr_train_models_261015_164428.h5",
+      "models/Osat_S0X0.75dPm_v8val_seed2026_NC_029262.1_ssr_train_models_261015_164914.h5",
+      "models/Sbic_S0X0.75dPm_v8val_seed2026_NC_012879.2_ssr_train_models_261015_170143.h5",
+      "models/Slyc_S0X0.75dPm_v8val_seed2026_NC_015449.3_ssr_train_models_261015_165358.h5",
+      "models/Zmay_S0X0.75dPm_v8val_seed2026_NC_050104.1_ssr_train_models_261015_170459.h5"
+    ],
+    "output_path": "EXTERNAL/predictions/deployed_leaf_all12_deepcre_crosspredict_Hvul_leaf.csv"
+  },
+  {
+    "genome": "data/hordeum_vulgare/genome/GCF_904849725.1.fna",
+    "annotation": "data/hordeum_vulgare/hlx-Hordeum_vulgare_supsp_vulgare-GCF_904849725.1-112509.agat.gtf",
+    "targets": "data/hordeum_vulgare/hordeum_vulgare_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_058518.1",
+      "NC_058519.1",
+      "NC_058520.1",
+      "NC_058521.1",
+      "NC_058522.1",
+      "NC_058523.1",
+      "NC_058524.1"
+    ],
+    "ignore_small_genes": true,
+    "prediction_models": [
+      "models/Hvul_S0X0.75dPm_v8val_seed2026_NC_058524.1_ssr_train_models_261015_170928.h5"
+    ],
+    "output_path": "EXTERNAL/predictions/deployed_leaf_Hvul_deepcre_crosspredict_Hvul_leaf.csv"
+  }
+]

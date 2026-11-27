@@ -1,0 +1,24 @@
+[
+  {
+    "model_case": "ssr",
+    "genome": "data/zea_mays/genome/GCF_902167145.1.fna",
+    "annotation": "data/zea_mays/Zea_mays-GCF_902167145.1-genome.helixer.agat.gtf",
+    "targets": "data/zea_mays/zea_mays_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_050096.1",
+      "NC_050097.1",
+      "NC_050098.1",
+      "NC_050099.1",
+      "NC_050100.1",
+      "NC_050101.1",
+      "NC_050102.1",
+      "NC_050103.1",
+      "NC_050104.1",
+      "NC_050105.1"
+    ],
+    "output_name": "Zmay_S1X0.75dPm_v8val_seed2026",
+    "pickle_key": "zmay",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

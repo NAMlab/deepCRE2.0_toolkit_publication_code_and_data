@@ -1,0 +1,23 @@
+[
+  {
+    "model_case": "ssr",
+    "genome": "data/beta_vulgaris/genome/GCF_002917755.1.fna",
+    "annotation": "data/beta_vulgaris/Beta_vulgaris_subsp_vulgaris-GCF_002917755.1-genome.helixer.agat.gtf",
+    "targets": "data/beta_vulgaris/beta_vulgaris_root_log10_mean_tpm_Q0.75_labeled_dPHYlogic.csv",
+    "chromosomes": [
+      "NC_064017.1",
+      "NC_064018.1",
+      "NC_064019.1",
+      "NC_064020.1",
+      "NC_064021.1",
+      "NC_064022.1",
+      "NC_064023.1",
+      "NC_064024.1",
+      "NC_064025.1"
+    ],
+    "output_name": "Bvul_S1X0.75dPm_v8val_seed2026",
+    "pickle_key": "bvul",
+    "pickle_file": "data/validation_set_dCRE2026.v8.p50c50e10.pickle",
+    "ignore_small_genes": true
+  }
+]

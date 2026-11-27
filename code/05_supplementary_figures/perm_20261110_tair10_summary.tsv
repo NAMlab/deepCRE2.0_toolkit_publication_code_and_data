@@ -1,0 +1,33 @@
+frame	model	snp_set	n_snps	null	reference_P	observed_delta_pct	null_mean_pct	null_sd_pct	null_min_pct	n_perm	p_empirical
+tair10	2024 Arabidopsis thaliana (leaf)	published nine	9	allele null	0.9316	-14.48	-3.37	1.616	-7.59	1000	0.000999000999000999
+tair10	2024 Arabidopsis thaliana (leaf)	published nine	9	position null	0.9316	-14.48	-1.611	2.987	-18.546	1000	0.004995004995004995
+tair10	2024 Arabidopsis thaliana (root)	published nine	9	allele null	0.9244	-1.293	-2.548	0.915	-4.027	1000	0.8771228771228772
+tair10	2024 Arabidopsis thaliana (root)	published nine	9	position null	0.9244	-1.293	-1.318	1.408	-6.286	1000	0.48451548451548454
+tair10	r3 Arabidopsis thaliana (leaf)	published nine	9	allele null	0.0747	-1.038	-0.591	0.254	-1.179	1000	0.028971028971028972
+tair10	r3 Arabidopsis thaliana (leaf)	published nine	9	position null	0.0747	-1.038	-0.192	0.532	-1.522	1000	0.030969030969030968
+tair10	r3 Arabidopsis thaliana (root)	published nine	9	allele null	0.1292	-2.132	-2.675	1.183	-4.616	1000	0.6823176823176823
+tair10	r3 Arabidopsis thaliana (root)	published nine	9	position null	0.1292	-2.132	-0.506	2.265	-5.191	1000	0.23776223776223776
+tair10	2024 Arabidopsis thaliana (leaf)	best ten (v3, TAIR10 frame)	10	allele null	0.9316	-3.925	0.196	0.857	-3.259	1000	0.000999000999000999
+tair10	2024 Arabidopsis thaliana (leaf)	best ten (v3, TAIR10 frame)	10	position null	0.9316	-3.925	-1.814	3.149	-25.883	1000	0.2087912087912088
+tair10	2024 Arabidopsis thaliana (root)	best ten (v3, TAIR10 frame)	10	allele null	0.9244	-1.799	-3.155	0.853	-5.18	1000	0.9240759240759241
+tair10	2024 Arabidopsis thaliana (root)	best ten (v3, TAIR10 frame)	10	position null	0.9244	-1.799	-1.526	1.567	-7.963	1000	0.4015984015984016
+tair10	r3 Arabidopsis thaliana (leaf)	best ten (v3, TAIR10 frame)	10	allele null	0.0747	-1.733	-1.077	0.235	-1.662	1000	0.000999000999000999
+tair10	r3 Arabidopsis thaliana (leaf)	best ten (v3, TAIR10 frame)	10	position null	0.0747	-1.733	-0.256	0.545	-1.588	1000	0.000999000999000999
+tair10	r3 Arabidopsis thaliana (root)	best ten (v3, TAIR10 frame)	10	allele null	0.1292	-3.462	-4.244	0.735	-5.504	1000	0.8451548451548452
+tair10	r3 Arabidopsis thaliana (root)	best ten (v3, TAIR10 frame)	10	position null	0.1292	-3.462	-0.587	2.39	-5.643	1000	0.07392607392607392
+tair10	2024 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, leaf)	8	allele null	0.9316	-2.029	0.477	0.703	-1.495	1000	0.000999000999000999
+tair10	2024 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, leaf)	8	position null	0.9316	-2.029	-1.487	2.651	-21.681	1000	0.32867132867132864
+tair10	2024 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, leaf)	8	allele null	0.9244	-1.387	-2.233	0.647	-3.572	1000	0.9080919080919081
+tair10	2024 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, leaf)	8	position null	0.9244	-1.387	-1.146	1.329	-6.532	1000	0.3966033966033966
+tair10	r3 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, leaf)	8	allele null	0.0747	-1.063	-0.591	0.281	-1.177	1000	0.026973026973026972
+tair10	r3 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, leaf)	8	position null	0.0747	-1.063	-0.159	0.504	-1.55	1000	0.027972027972027972
+tair10	r3 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, leaf)	8	allele null	0.1292	-3.334	-3.38	0.621	-4.417	1000	0.5764235764235764
+tair10	r3 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, leaf)	8	position null	0.1292	-3.334	-0.472	2.142	-5.135	1000	0.056943056943056944
+tair10	2024 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, root)	8	allele null	0.9316	-4.091	0.292	0.526	-1.101	1000	0.000999000999000999
+tair10	2024 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, root)	8	position null	0.9316	-4.091	-1.415	2.52	-17.875	1000	0.12787212787212787
+tair10	2024 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, root)	8	allele null	0.9244	-1.886	-1.606	0.603	-3.074	1000	0.34265734265734266
+tair10	2024 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, root)	8	position null	0.9244	-1.886	-1.151	1.32	-7.046	1000	0.2597402597402597
+tair10	r3 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, root)	8	allele null	0.0747	-1.011	-0.723	0.37	-1.371	1000	0.24975024975024976
+tair10	r3 Arabidopsis thaliana (leaf)	best eight (v3, Helixer frame, root)	8	position null	0.0747	-1.011	-0.19	0.488	-1.445	1000	0.03596403596403597
+tair10	r3 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, root)	8	allele null	0.1292	-3.279	-3.264	0.659	-4.486	1000	0.5194805194805194
+tair10	r3 Arabidopsis thaliana (root)	best eight (v3, Helixer frame, root)	8	position null	0.1292	-3.279	-0.546	2.261	-5.07	1000	0.08891108891108891
