@@ -6,7 +6,7 @@ REPO="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"   # repository root
 # How to change or extend: Place rescue JSONs in config folder and update `--first_attempt` / `--max_attempts`.
 #$ -N rescue_v8_dPm
 #$ -o $REPO/EXTERNAL/cluster_scratch/logs
-#$ -wd $REPO/deepCRE_reimplemented/src/deepCRE
+#$ -wd $REPO/code/06_benchmarking/workflows/deepcre/src/deepCRE
 #$ -j y
 #$ -pe smp 1
 #$ -l h_vmem=160g,gpu=1

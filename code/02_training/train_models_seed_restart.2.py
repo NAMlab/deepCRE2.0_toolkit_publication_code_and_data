@@ -9,7 +9,7 @@ Manuscript (Peleke et al., 2026):
     shuffled-sequence controls (`job_ssc_control_dPmean.0.sh`, `--max_attempts 1`), and train the
     *A. thaliana* TAIR10 exception (`job_train_atha_tair10.0.sh`).
 
-Usage & I/O (run from `deepCRE_reimplemented/src/deepCRE/` with TF 2.10 env):
+Usage & I/O (run from `code/06_benchmarking/workflows/deepcre/src/deepCRE/` with TF 2.10 env):
     python train_models_seed_restart.2.py --input <config.json> \
         [--seed 2026] [--max_attempts 5] [--plateau_loss 0.68] [--first_attempt 0] [--only A,B]
 

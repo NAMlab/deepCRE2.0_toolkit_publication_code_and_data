@@ -23,7 +23,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 | `results/` | Final evaluation tables (`final/`, `msr/`, `ssc_control/`, `tissue_cross/`) and Table 2 expression-threshold comparison (`label_thresholds_20261126/`). | [`results/README.md`](results/README.md) |
 | `models/` | Trained `.h5` models in `ssr/`, `ssc/`, `msr/`, `peleke2024/`; `model_id_mapping.tsv` (515 2026 models), and `peleke2024_models.tsv` (45 models from Peleke et al., 2024). | [`models/README.md`](models/README.md) |
 | `tutorial/` | Web-tool tutorial inputs (`File_1`–`File_3`, corresponding to Supplementary files 1–3) and tutorial result CSVs (`Tutorial_table{1,2,3}_*.csv`). | [`tutorial/README.md`](tutorial/README.md) |
-| `deepCRE_reimplemented/` | Git submodule pointing to https://github.com/NAMlab/deepCRE_reimplemented (commit `19f6db7`), containing the unmodified core CNN training and prediction code (`train_models.py`, `deepcre_crosspredict.py`). | — |
+| `code/06_benchmarking/workflows/deepcre/` | Git submodule (shared with the benchmark) pointing to https://github.com/NAMlab/deepCRE2.0 (formerly `deepCRE_reimplemented`) at commit `a37db45`, containing the unmodified core CNN training and prediction code (`train_models.py`, `deepcre_crosspredict.py`). The published models were trained at `19f6db7`, two commits earlier; `a37db45` only skips genes whose flanks reach past a contig end (instead of stopping with an error) and adds an error check to `deepcre_interpret.py`. | — |
 
 ---
 
@@ -57,9 +57,9 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 
 1. **Clone the `deepCRE2.0` submodule (only needed if re-training or running `deepcre_crosspredict.py`):**
    ```bash
-   git submodule update --init deepCRE_reimplemented
-   git -C deepCRE_reimplemented checkout 19f6db7
-   cp code/02_training/train_models_seed_restart.*.py deepCRE_reimplemented/src/deepCRE/
+   git submodule update --init code/06_benchmarking/workflows/deepcre
+   git -C code/06_benchmarking/workflows/deepcre checkout 19f6db7   # optional: the exact commit the published models were trained with
+   cp code/02_training/train_models_seed_restart.*.py code/06_benchmarking/workflows/deepcre/src/deepCRE/
    ```
 2. **Decompress annotations/labels/matrices and download RefSeq genome FASTAs (only needed for training/inference):**
    ```bash
@@ -81,7 +81,7 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
      results/evaluation results/evaluation/ssc_control/ssc_control_per_fold.tsv EXTERNAL/figure_output/pub_out/Supplementary_Data_1.xlsx
    ```
 
-Training (`deepCRE2.0`) and TensorFlow inference/DeepSHAP scripts (`code/05_supplementary_figures/`, `code/06_annotation_frame/`) require Python 3.8 + TensorFlow 2.10 (see `deepCRE_reimplemented/pyproject.toml`). Scripts importing `from lib.utils import ...` additionally expect the `lib/` package from https://github.com/NAMlab/streamlit_deepcre_app.
+Training (`deepCRE2.0`) and TensorFlow inference/DeepSHAP scripts (`code/05_supplementary_figures/`, `code/06_annotation_frame/`) require Python 3.8 + TensorFlow 2.10 (see `code/06_benchmarking/workflows/deepcre/pyproject.toml`). Scripts importing `from lib.utils import ...` additionally expect the `lib/` package from https://github.com/NAMlab/streamlit_deepcre_app.
 
 ---
 

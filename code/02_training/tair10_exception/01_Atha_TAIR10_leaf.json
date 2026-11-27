@@ -2,8 +2,8 @@
   {
     "model_case": "ssr",
     "genome": "data/arabidopsis_thaliana/genome/GCF_000001735.4.fna",
-    "annotation": "deepCRE_reimplemented/src/deepCRE/inputs/tair10_exception_20261110/Arabidopsis_thaliana_TAIR10_RefSeq.gene.gtf",
-    "targets": "deepCRE_reimplemented/src/deepCRE/inputs/tair10_exception_20261110/arabidopsis_thaliana_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic_TAIR10.csv",
+    "annotation": "code/06_benchmarking/workflows/deepcre/src/deepCRE/inputs/tair10_exception_20261110/Arabidopsis_thaliana_TAIR10_RefSeq.gene.gtf",
+    "targets": "code/06_benchmarking/workflows/deepcre/src/deepCRE/inputs/tair10_exception_20261110/arabidopsis_thaliana_leaf_log10_mean_tpm_Q0.75_labeled_dPHYlogic_TAIR10.csv",
     "chromosomes": [
       "NC_003070.9",
       "NC_003071.7",

@@ -1,6 +1,3 @@
-[submodule "deepCRE_reimplemented"]
-	path = deepCRE_reimplemented
-	url = https://github.com/NAMlab/deepCRE_reimplemented.git
 [submodule "code/06_benchmarking/workflows/plantcad"]
 	path = code/06_benchmarking/workflows/plantcad
 	url = https://github.com/plantcad/plantcad.git

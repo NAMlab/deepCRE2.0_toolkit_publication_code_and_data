@@ -25,14 +25,14 @@ These configs train companion TAIR10-window *A. thaliana* models using the same 
 Additional inputs referenced by the JSON configs:
 * `data/arabidopsis_thaliana/genome/GCF_000001735.4.fna` (fetched by `bash data/download_genomes.sh`)
 * `data/validation_set_dCRE2026.v8.p50c50e10.tair10.pickle` (key `atha_tair10`)
-* Protein-coding RefSeq GTF (`Arabidopsis_thaliana_TAIR10_RefSeq.gene.gtf`, derived from `EXTERNAL/refseq_gff/GCF_000001735.4_TAIR10.1_genomic.gff.gz` and staged at `deepCRE_reimplemented/src/deepCRE/inputs/tair10_exception_20261110/`)
+* Protein-coding RefSeq GTF (`Arabidopsis_thaliana_TAIR10_RefSeq.gene.gtf`, derived from `EXTERNAL/refseq_gff/GCF_000001735.4_TAIR10.1_genomic.gff.gz` and staged at `code/06_benchmarking/workflows/deepcre/src/deepCRE/inputs/tair10_exception_20261110/`)
 
 ---
 
 ## Usage & How to Extend
 
 ```bash
-# Stage train_models_seed_restart.2.py alongside train_models.py in deepCRE_reimplemented/src/deepCRE/,
+# Stage train_models_seed_restart.2.py alongside train_models.py in code/06_benchmarking/workflows/deepcre/src/deepCRE/,
 # stage Arabidopsis_thaliana_TAIR10_RefSeq.gene.gtf at the path in the JSON (or edit "annotation"), then run:
 python train_models_seed_restart.2.py \
   --input code/02_training/tair10_exception/01_Atha_TAIR10_leaf.json \

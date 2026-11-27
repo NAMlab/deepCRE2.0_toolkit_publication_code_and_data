@@ -6,7 +6,7 @@ Wrappers, SGE cluster job scripts, JSON configurations, and model selection/nami
 
 ## Core Architecture & Wrapper (`train_models_seed_restart.{1,2}.py`)
 
-All models were trained using the unmodified CNN architecture and data pipeline in **`deepCRE_reimplemented/src/deepCRE/train_models.py`** (commit `19f6db7` of https://github.com/NAMlab/deepCRE2.0; 3,020 bp one-hot gene windows `[1,000 bp gUR + 500 bp gTUR + 20 bp N-pad + 500 bp gTDR + 1,000 bp gDR]`, 3 Conv1D+MaxPool+Dropout blocks [64/128/64 filters, kernel 8, pool 8, dropout 0.25], Dense `128 → 64 → 1` sigmoid, Adam `lr = 1e-4`, binary cross-entropy, batch `64`, up to `100` epochs with EarlyStopping patience `10` and ReduceLROnPlateau patience `5`).
+All models were trained using the unmodified CNN architecture and data pipeline in **`code/06_benchmarking/workflows/deepcre/src/deepCRE/train_models.py`** (commit `19f6db7` of https://github.com/NAMlab/deepCRE2.0, formerly `deepCRE_reimplemented`; the submodule is pinned at `a37db45`, which differs only by skipping genes whose flanks reach past a contig end instead of stopping with an error; 3,020 bp one-hot gene windows `[1,000 bp gUR + 500 bp gTUR + 20 bp N-pad + 500 bp gTDR + 1,000 bp gDR]`, 3 Conv1D+MaxPool+Dropout blocks [64/128/64 filters, kernel 8, pool 8, dropout 0.25], Dense `128 → 64 → 1` sigmoid, Adam `lr = 1e-4`, binary cross-entropy, batch `64`, up to `100` epochs with EarlyStopping patience `10` and ReduceLROnPlateau patience `5`).
 
 Because `train_models.py` did not fix random seeds and occasional chromosome folds stalled near constant `0.5` output (`val_loss ≈ ln(2) = 0.693`), the lightweight runtime wrapper **`train_models_seed_restart.{1,2}.py`** (placed next to `train_models.py` during execution) patches two functions in memory without editing `train_models.py`:
 
@@ -41,7 +41,7 @@ All JSON config files under `ssr/configs/`, `ssr/configs_rescue/`, `msr/configs/
 
 ## How to Change or Extend
 
-* **Train a new species or annotation:** Create a JSON modeled on `ssr/configs/01_Atha_leaf.json`, copy `train_models_seed_restart.2.py` into `deepCRE_reimplemented/src/deepCRE/`, ensure `data/*/*.gz` are decompressed and `.fna` genomes exist, then run from `deepCRE_reimplemented/src/deepCRE/`:
+* **Train a new species or annotation:** Create a JSON modeled on `ssr/configs/01_Atha_leaf.json`, copy `train_models_seed_restart.2.py` into `code/06_benchmarking/workflows/deepcre/src/deepCRE/`, ensure `data/*/*.gz` are decompressed and `.fna` genomes exist, then run from `code/06_benchmarking/workflows/deepcre/src/deepCRE/`:
   ```bash
   python train_models_seed_restart.2.py --input path/to/config.json --seed 2026 --max_attempts 5 --plateau_loss 0.68
   ```

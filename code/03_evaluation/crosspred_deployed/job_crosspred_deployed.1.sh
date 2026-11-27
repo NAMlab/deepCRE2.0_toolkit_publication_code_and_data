@@ -7,14 +7,14 @@ REPO="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"   # repository root
 #$ -N crosspred_dPm_r
 #$ -tc 6
 #$ -o $REPO/EXTERNAL/cluster_scratch/logs
-#$ -wd $REPO/deepCRE_reimplemented/src/deepCRE
+#$ -wd $REPO/code/06_benchmarking/workflows/deepcre/src/deepCRE
 #$ -j y
 #$ -q Default.q
 #$ -pe smp 8
 #$ -l h_vmem=16g
 source $REPO/EXTERNAL/environment/conda.sh
 conda activate $REPO/EXTERNAL/environment/deepCRE_p38tf210_gpu
-export PYTHONPATH=$REPO/deepCRE_reimplemented/src CUDA_VISIBLE_DEVICES=""
+export PYTHONPATH=$REPO/code/06_benchmarking/workflows/deepcre/src CUDA_VISIBLE_DEVICES=""
 export TF_NUM_INTRAOP_THREADS=4 TF_NUM_INTEROP_THREADS=2 OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4
 CFG=$(ls "$REPO"/code/03_evaluation/crosspred_deployed/configs/*.json | sort | sed -n "${SGE_TASK_ID}p")
 echo "task ${SGE_TASK_ID}: ${CFG}"

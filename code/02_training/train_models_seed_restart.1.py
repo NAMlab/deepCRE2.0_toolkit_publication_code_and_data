@@ -1,6 +1,6 @@
 """
 Purpose:
-    Run `deepCRE_reimplemented/src/deepCRE/train_models.py` unchanged in architecture and
+    Run `code/06_benchmarking/workflows/deepcre/src/deepCRE/train_models.py` unchanged in architecture and
     hyperparameters, while fixing `random`/`numpy`/`tensorflow` seeds (`--seed 2026`) and
     automatically restarting folds that remain on the constant-0.5 loss plateau (`val_loss > --plateau_loss`).
 
@@ -9,7 +9,7 @@ Manuscript (Peleke et al., 2026):
     and base MSR (`job_retrain_msr_dPmean.0.sh`) training jobs. (`restart_log_<output_name>.tsv`
     records every attempt.)
 
-Usage & I/O (run from `deepCRE_reimplemented/src/deepCRE/` with TF 2.10 env):
+Usage & I/O (run from `code/06_benchmarking/workflows/deepcre/src/deepCRE/` with TF 2.10 env):
     python train_models_seed_restart.1.py --input <config.json> \
         [--seed 2026] [--max_attempts 5] [--plateau_loss 0.68] [--first_attempt 0]
 

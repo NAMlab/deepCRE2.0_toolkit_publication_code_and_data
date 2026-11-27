@@ -1,6 +1,6 @@
 # Model Evaluation, Cross-Prediction, and Workbook Builders (`code/03_evaluation/`)
 
-Scripts and prediction configs that run held-out and cross-species inference (`deepcre_crosspredict.py` in `deepCRE_reimplemented`), compute all balanced/unbalanced metrics under [`results/evaluation/`](../../results/README.md), build Supplementary Data 1, and generate the deployed web-tool model manifest.
+Scripts and prediction configs that run held-out and cross-species inference (`deepcre_crosspredict.py` in `code/06_benchmarking/workflows/deepcre`), compute all balanced/unbalanced metrics under [`results/evaluation/`](../../results/README.md), build Supplementary Data 1, and generate the deployed web-tool model manifest.
 
 ---
 

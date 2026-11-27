@@ -1,5 +1,5 @@
 # Python packages of the evaluation, figure and data-preparation scripts (versions used to verify this repository,
-# Python 3.11). Training and prediction use the deepCRE environment of deepCRE_reimplemented (Python 3.8, TensorFlow 2.10).
+# Python 3.11). Training and prediction use the deepCRE environment of deepCRE2.0 (code/06_benchmarking/workflows/deepcre) (Python 3.8, TensorFlow 2.10).
 pandas==2.2.3
 numpy==1.26.4
 matplotlib==3.9.1

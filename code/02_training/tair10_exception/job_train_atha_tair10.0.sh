@@ -7,7 +7,7 @@ REPO="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"   # repository root
 #$ -N atha_tair10
 #$ -t 1-2
 #$ -o $REPO/EXTERNAL/cluster_scratch/logs
-#$ -wd $REPO/deepCRE_reimplemented/src/deepCRE
+#$ -wd $REPO/code/06_benchmarking/workflows/deepcre/src/deepCRE
 #$ -j y
 #$ -pe smp 1
 #$ -l h_vmem=64g,gpu=1

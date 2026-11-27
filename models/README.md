@@ -19,7 +19,7 @@ Files carry the names written during training on the cluster (`old_file` in `mod
 
 ## 2026 Model Inventory (`model_id_mapping.tsv`)
 
-`model_id_mapping.tsv` indexes **515** 2026 `.h5` files (trained with `deepCRE_reimplemented` at commit `19f6db7` via `code/02_training/`):
+`model_id_mapping.tsv` indexes **515** 2026 `.h5` files (trained with deepCRE2.0 (formerly `deepCRE_reimplemented`) at commit `19f6db7` via `code/02_training/`):
 
 | Former release archive | Model group | Count in `model_id_mapping.tsv` | Notes & Manuscript Role |
 |---|---|---|---|
