@@ -59,7 +59,7 @@ def main(id_dir, per_fold, msr_dir, out):
         new_id = m.new_id.iloc[0]
         rows.append(dict(web_file=f"{SP[r.code].replace(' ', '_')}_{r.tissue}.h5", kind="single-species",
                          species_or_set=SP[r.code], tissue=r.tissue, fold_or_held_out=r.chrom, model_id=new_id,
-                         path=os.path.join(id_dir, "ssr", new_id), accuracy=round(r.accuracy_v8, 4),
+                         path=os.path.join(id_dir, "ssr", r.model), accuracy=round(r.accuracy_v8, 4),
                          auROC=round(r.auROC_v8, 4), MCC=round(r.MCC_v8, 4),
                          _sort=(0, ORDER.index(r.code), r.tissue)))
 
@@ -76,7 +76,7 @@ def main(id_dir, per_fold, msr_dir, out):
             rows.append(dict(web_file=f"{web}_{tis}.h5", kind=f"multi-species ({st})",
                              species_or_set=MSR_SET_LABEL[st],
                              tissue=tis, fold_or_held_out=f"held out: {SP[ho]}", model_id=new_id,
-                             path=os.path.join(id_dir, "msr", new_id), accuracy=round(e.accuracy, 4),
+                             path=os.path.join(id_dir, "msr", e.model), accuracy=round(e.accuracy, 4),
                              auROC=round(e.auROC, 4), MCC=round(e.MCC, 4), _sort=(1, i, tis)))
 
     p24 = pd.read_csv(os.path.join(id_dir, "peleke2024_models.tsv"), sep="\t")
