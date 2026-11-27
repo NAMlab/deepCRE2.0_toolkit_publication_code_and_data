@@ -1,0 +1,4 @@
+kind	tissue	held_out	file_in_models_dir	on_website	accuracy	auROC	MCC	sha256
+multi-species (all)	root	Brassica oleracea	msr/MSR_dPm_all_root_seed2026_Bole_dPm_root_msr_train_models_261015_171458.h5	True	0.8262	0.905	0.653	438fd178a14d101bf3c3de85600e2604025f7a2e31f8ffb3f9327e4ace37acfa
+multi-species (all)	root	Arabidopsis thaliana	msr/MSR_dPm_all_root_seed2026_Atha_dPm_root_msr_train_models_261015_171458.h5	False	0.8483	0.9278	0.6973	26cf8308349c3cd3c7207d559e19cca3262822070eb4b2363b0eb1b50da1b9ed
+multi-species (all)	root	Zea mays	msr/MSR_dPm_all_root_seed2026_Zmay_dPm_root_msr_train_models_261015_200259.h5	False	0.8336	0.9067	0.6696	c2b58bef52d5124e5dc213ed834a2676dfe2d88d7ed88ae59a2719556c55f06f
