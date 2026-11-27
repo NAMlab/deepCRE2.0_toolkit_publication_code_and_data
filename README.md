@@ -26,6 +26,32 @@ All Code, Data and Models have been reviewed and are authored by Simon M. Zumkel
 
 ---
 
+## Benchmark (`code/06_benchmarking/`)
+
+The benchmark of deepCRE against PhytoExpr and PlantCaduceus (PlantCAD2) for Figure 3 and Supplementary Figure 3. Installation and run instructions are in [`code/06_benchmarking/README.md`](code/06_benchmarking/README.md).
+
+**Included in this repository**
+
+| Path in `code/06_benchmarking/` | Contents |
+|---|---|
+| `README.md` | Requirements, installation (cwltool, Apptainer/Singularity or Docker, NVIDIA container toolkit) and how to run the workflows. |
+| `environment.yml` | Conda environment with `cwltool`. |
+| `setup-apptainer.sh`, `setup-docker.sh` | Build the model containers (Apptainer SIF files or Docker images). |
+| `setup-run-aliases.sh` | Shell aliases (`mpl-run`, with Docker/Apptainer and parallel options) for running a workflow. |
+| `workflows/cwl/deepcre/` | CWL tool `predict_crosspredict.cwl` (runs `deepcre_crosspredict.py` from the `workflows/deepcre` submodule), `Dockerfile`, Apptainer `Container.def`, `environment.yml`. |
+| `workflows/cwl/phytoexpr/` | CWL tool `predict.cwl` with `predict.py`, `Dockerfile`, `Container.def`, `environment.yml`. |
+| `workflows/cwl/plantcad/` | CWL tools `tokenize.cwl` and `predict_loraexpression.cwl`, `Dockerfile`, `Container.def`, `environment.yml`, `additional-requirements.txt`. |
+| `workflows/cwl/deepcis/` | CWL tool `predict.cwl` with `predict.py`, `Dockerfile`, `Container.def`, `environment.yml`. |
+| `workflows/deepcre` | Git submodule: https://github.com/NAMlab/deepCRE2.0 at `a37db45` (also used by `code/02_training/` and `code/03_evaluation/`). |
+| `workflows/phytoexpr` | Git submodule: https://github.com/NAMlab/PhytoExpr-inofficial at `5fda808`. |
+| `workflows/plantcad` | Git submodule: https://github.com/plantcad/plantcad at `bc2503d`. |
+| `workflows/PanGenomeTools` | Git submodule: https://github.com/pfennigt/PanGenomeTools at `179c7c0`. |
+| `workflows/ModelPipelineIO` | Git submodule: https://github.com/pfennigt/ModelPipelineIO at `55b64b6` (repository not public; access required). |
+
+**Not included in this repository:** the `runs/` folders that `code/06_benchmarking/README.md` refers to (per-model `run.cwl`/`run.yml`, the predictions shown in the manuscript in each run's `dataset/` folder, `logs/`) and the analysis notebook that draws the figures (`runs/analysis-deepcreComparison/analysis.ipynb`). They are part of the ARC https://git.nfdi4plants.org/szymanskilab/ModelPipeline_DeepCRETK (access required).
+
+---
+
 ## General Conventions
 
 * **Run from repository root:** All analysis and figure scripts assume relative paths starting from the root of this repository (unless explicitly noted as requiring staging alongside the web-app `lib/` modules in `code/05_supplementary_figures/` and `code/06_annotation_frame/`).
