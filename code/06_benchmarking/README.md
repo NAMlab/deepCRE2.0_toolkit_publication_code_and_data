@@ -1,7 +1,9 @@
 # DeepCRE model benchmarking
 
-This repository applies three published models for predicting gene expression based on DNA sequence to genomes of *Arabidopsis thaliana* and *Zey mays*.
+This repository applies three published models for predicting gene expression based on DNA sequence to genomes of *Arabidopsis thaliana* and *Zea mays*.
 Each model is integrated in workflows with standardized inputs and outputs using the Common Workflow Language (CWL, <https://www.commonwl.org/>).
+
+This benchmarking was performed by Tobias Pfennig and is based on the yet unpublished ModelPipeline (<https://github.com/pfennigt/ModelPipeline>)
 
 | Models | Publication |
 | --- | --- |
