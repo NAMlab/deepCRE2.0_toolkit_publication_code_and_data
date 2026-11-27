@@ -17,6 +17,7 @@ This folder holds all genome annotations, expression matrices, binary classifica
 | `label_summary.tsv` | Summary of high (`1`), low (`0`), unused (`2`), total genes, zero-TPM fractions, and cut-off values across all 13 species × leaf/root. |
 | `validation_set_dCRE2026.v8.p50c50e10.pickle` | Dictionary (`{species_code: [gene_id, ...]}`) of paralog-filtered validation genes (`v8` selection: identity `>= 50%`, reciprocal coverage `>= 50%`, `E <= 1e-10`, no inter-chromosomal paralogs, stratified by chromosome, seed 2026). Used for training early-stopping/checkpoint splits and Methods/Figure 2/Supplementary Figure 1 validation metrics. |
 | `validation_set_dCRE2026.v8.p50c50e10.tair10.pickle` | *A. thaliana* validation gene IDs translated to TAIR10 locus space under key `"atha_tair10"` for the TAIR10 training exception (`code/02_training/tair10_exception/`). |
+| `validation_set_dCRE2026.original_rule.e1e-3b50.pickle` | Dictionary (`{species_code: [gene_id, ...]}`) of validation genes selected with the original deepCRE chromosome rule (gene kept only if all its BLAST hits with e-value < 0.001 and bitscore >= 50 lie on its own chromosome; Pt/Mt excluded); 12 species, no *H. vulgare*. md5 `59cdc2c480e55ae9f8d5b2bf79b50521`. |
 
 ---
 
